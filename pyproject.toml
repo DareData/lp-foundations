@@ -13,7 +13,7 @@ dependencies = ["pandas"]
 dev = ["pytest", "pylint", "pytest-cov"]
 
 [tool.setuptools]
-packages = ["assignment_1"]
+packages = ["life_expectancy"]
 
 [tool.coverage.run]
 omit = [
