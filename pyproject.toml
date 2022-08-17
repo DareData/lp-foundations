@@ -1,0 +1,24 @@
+[project]
+name = "assignments"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.7"
+description = "First assignment of the Foundations Learning Path"
+authors = [
+    {name = "Fernando Cordeiro<fernando@daredata.engineering>"}
+]
+dependencies = ["pandas"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pylint", "pytest-cov"]
+
+[tool.setuptools]
+packages = ["assignment_1"]
+
+[tool.coverage.run]
+omit = [
+    "*/conftest.py", "*/test*", # omit test files
+]
+
+[tool.coverage.report]
+fail_under = 80
