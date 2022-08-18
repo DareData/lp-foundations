@@ -13,7 +13,7 @@ These are the code requirements for part one:
     1.  Loads the `eu_life_expectancy_raw.tsv` data from the `data` folder.
     2.  Unpivots the date to long format, so that we have the following columns: `unit`, `sex`, `age`, `region`, `year`, `value`.
     3.  Ensures `year` is an `int` (with the appropriate data cleaning if required)
-    4.  Ensures `value` is a `float` (with the appropriate data cleaning if required)
+    4.  Ensures `value` is a `float` (with the appropriate data cleaning if required, and do remove the `NaN`s). 
     5.  Filters only the data where `region` equal to `PT` (Portugal).
     6.  Save the resulting data frame to the `data` folder as `pt_life_expectancy.csv`. Ensure that no numerical index is saved.	
 3.  Verify that your code runs by running `pytest life_expectancy --cov`.
