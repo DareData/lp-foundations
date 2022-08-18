@@ -8,15 +8,15 @@ These are the code requirements for part one:
 
 ## Data cleaning
 
-1.  Create a script called `cleaning.py`.
-2.  This script should have a function called `clean_data` that does the following:
-    1.  Loads the `eu_life_expectancy_raw.tsv` data from the `data` folder.
-    2.  Unpivots the date to long format, so that we have the following columns: `unit`, `sex`, `age`, `region`, `year`, `value`.
-    3.  Ensures `year` is an `int` (with the appropriate data cleaning if required)
-    4.  Ensures `value` is a `float` (with the appropriate data cleaning if required, and do remove the `NaN`s). 
-    5.  Filters only the data where `region` equal to `PT` (Portugal).
-    6.  Save the resulting data frame to the `data` folder as `pt_life_expectancy.csv`. Ensure that no numerical index is saved.	
-3.  Verify that your code runs by running `pytest life_expectancy --cov`.
+1. Create a script called `cleaning.py`.
+2. This script should have a function called `clean_data` that does the following:
+    1. Loads the `eu_life_expectancy_raw.tsv` data from the `data` folder.
+    2. Unpivots the date to long format, so that we have the following columns: `unit`, `sex`, `age`, `region`, `year`, `value`.
+    3. Ensures `year` is an `int` (with the appropriate data cleaning if required)
+    4. Ensures `value` is a `float` (with the appropriate data cleaning if required, and do remove the `NaN`s).
+    5. Filters only the data where `region` equal to `PT` (Portugal).
+    6. Save the resulting data frame to the `data` folder as `pt_life_expectancy.csv`. Ensure that no numerical index is saved.
+3. Verify that your code runs by running `pytest life_expectancy --cov`.
 
 If everything runs, congrats! Move on to the next part.
 
@@ -24,15 +24,10 @@ If everything runs, congrats! Move on to the next part.
 
 For this refactoring section, we have 3 activities:
 
-1. Run `pylint` on your code with `pylint life_expectancy/cleaning`. Some of the suggestions will make sense, others won't. For those that don't, add a pylint configuration to ignore them. Fix the ones that make sense. You should get a score of 10/10. 
-2. Create an entry point for the script.
-
-```python
-if __name__ == "__main__":  # pragma: no cover
-    clean_data()
-```
-2. Include command-line options. We want the country to be a command-line option. The default should be `PT`. You can use either the `argparse` module or a third-party package for this, but remember to include it in the `pyproject.toml` file if it's the latter.
-3. Update the tests in `tests/test_cleaning` to reflect the changes. Runnings `pytest life_expectancy --cov` should still work.
+1. Run `pylint` on your code with `pylint life_expectancy/cleaning`. Some of the suggestions will make sense, others won't. For those that don't, add a pylint configuration to ignore them. Fix the ones that make sense. You should get a score of 10/10.
+2. Ensure the call to `clean_data` is done inside a `if __name__ == "__main__":  # pragma: no cover` block. You can read more about the "pragma: no cover" [here](https://coverage.readthedocs.io/en/latest/excluding.html).
+3. Include command-line options. We want the country to be a command-line option. The default should be `PT`. You can use either the `argparse` module or a third-party package for this, but remember to include it in the `pyproject.toml` file if it's the latter.
+4. Update the tests in `tests/test_cleaning` to reflect the changes. Runnings `pytest life_expectancy --cov` should still work.
 
 ## Continuous integration
 

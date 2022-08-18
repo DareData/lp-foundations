@@ -2,7 +2,7 @@
 
 For this lesson, we will be using the code from the previous lesson. We will be refactoring and reviewing the code of a fellow colleague.
 
-## Refactoring
+## 1- Refactoring
 
 There was a problem with the previous code. The `clean_data` function was doing too much. It was loading the data, cleaning it, and saving it. This is a violation of the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle). We want to separate the concerns of the code. We want to have a function that loads the data, a function that cleans the data, and a function that saves the data. This way, we can reuse the code in different contexts.
 
@@ -12,7 +12,7 @@ All three functions should be called from a `main` function. Don't forget to ens
 
 You can do this in a new branch called `refactoring`. When you are done, create a pull request from `refactoring` to `main`. Don't merge it yet!
 
-## Code Review
+## 2- Code Review
 
 Assign a colleague to review your code. You should receive to opportunity to review your colleague's code as well. In your code review, make sure verify the following:
 
