@@ -38,6 +38,6 @@ Now, let's create a CI pipeline for this project. We will use GitHub Actions for
    1. Run `pytest` on the code
    2. Run `pylint` on the code.
    3. Be triggered on every push to the `main` branch and every pull request update.
-3. Create a pull request from `ci` to `main`. Don't merge it yet!
-4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Push this commit.
+3. Create a pull request from `ci` to `main`. Don't merge it yet! If the workflow triggers were correct, GitHub should try to run the workflow. If it doesn't or if it fails, try to fix it with additional commits to the `ci` branch.
+4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Select the workflow run and then click the "..." button: a "Create status badge" option should appear. Open the `ci` branch on your local machine (a quick way to do this is with the `git switch ci` command), paste the provided markdown to the project's `README.md` and push this commit.
 5. Merge the pull request when the pipeline succeeds.
