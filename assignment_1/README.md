@@ -31,13 +31,13 @@ For this refactoring section, we have 3 activities:
 
 ## Continuous integration
 
-Now, let's create a CI pipeline for this project. We will use GitHub Actions for this. 
+Now, let's create a CI pipeline for this project. We will use GitHub Actions for this.
 
 1. Create a new repo for this project.
 2. Create a new branch called `ci`. The pipeline should:
    1. Run `pytest` on the code
    2. Run `pylint` on the code.
    3. Be triggered on every push to the `main` branch and every pull request update.
-3. Create a pull request from `ci` to `main`. Don't merge it yet! 
+3. Create a pull request from `ci` to `main`. Don't merge it yet!
 4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Push this commit.
 5. Merge the pull request when the pipeline succeeds.
