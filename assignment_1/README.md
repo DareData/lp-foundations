@@ -24,7 +24,7 @@ If everything runs, congrats! Move on to the next part.
 
 For this refactoring section, we have 3 activities:
 
-1. Run `pylint` on your code with `pylint life_expectancy/cleaning`. Some of the suggestions will make sense, others won't. For those that don't, add a pylint configuration to ignore them. Fix the ones that make sense. You should get a score of 10/10.
+1. Run `pylint` on your code with `pylint life_expectancy.cleaning`. Some of the suggestions will make sense, others won't. For those that don't, add a pylint configuration to ignore them. Fix the ones that make sense. You should get a score of 10/10.
 2. Ensure the call to `clean_data` is done inside a `if __name__ == "__main__":  # pragma: no cover` block. You can read more about the "pragma: no cover" [here](https://coverage.readthedocs.io/en/latest/excluding.html).
 3. Include command-line options. We want the country to be a command-line option. The default should be `PT`. You can use either the `argparse` module or a third-party package for this, but remember to include it in the `pyproject.toml` file if it's the latter.
 4. Update the tests in `tests/test_cleaning` to reflect the changes. Runnings `pytest life_expectancy --cov` should still work.
