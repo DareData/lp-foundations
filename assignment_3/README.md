@@ -16,7 +16,7 @@ If you're on VSCode, you can use the [Python Test Explorer](https://marketplace.
 ## 3- Unit tests
 
 1. Right now you should have more python modules. If not, ensure you have at least 2: one for data cleaning and one for loading/saving data.
-2. We also have a single integration test, but we should have unit tests for each of the functions we have.
+2. We also have a single integration test, but we should have unit tests for each of the non-private functions we have.
 
 ## 4- Code Review
 
