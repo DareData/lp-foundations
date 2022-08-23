@@ -12,4 +12,11 @@ In this lesson from Duke University on GitHub Actions, you will learn how to cre
 
 Now that you have learned how clean code is, how to refactor your code, how to lint it, and how to setup a CI pipeline to your project, it's time for the Assignment #1!
 
+### Assignment #1 covers
+
+- A data manipulation task,
+- Linting a project
+- Adding command-line options
+- Creating a CI pipeline
+
 `cd` into the `assignments` folder and good luck! 👍
