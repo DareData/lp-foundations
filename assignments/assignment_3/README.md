@@ -18,7 +18,9 @@ If you're on VSCode, you can use the [Python Test Explorer](https://marketplace.
 ## 3- Unit tests
 
 1. Right now you should have more python modules. If not, ensure you have at least 2: one for data cleaning and one for loading/saving data.
-2. We also have a single integration test, but we should have unit tests for each of the non-private functions we have.
+2. We also have a single integration test, but we should have unit tests for each of the non-private functions[^1] we have.
+
+[^1]: Yes, you can also test internal functions if you want to (specially for training purposes). But in the real world, remember that you really believe a particular internal function should be tested, that's a strong indicator it should be decoupled and placed inside its own module - thus making it public.
 
 ## 4- Code Review
 

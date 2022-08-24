@@ -28,3 +28,16 @@ After this lesson you should:
 
 - Know how to test Pandas DataFrames with the `pandas.testing` module,
 - Know how to test Pyspark DataFrames with local spark sessions.
+
+## What should you test?
+
+Potentially one can test _everything_. However, this is not practical - nor desirable. The goal of testing is to ensure that the code is working as expected. This means that you should test the code that is critical to the application. For example, if you are building a web application, you should test the code that handles the HTTP requests. If you are building a data pipeline, you should test the code that handles the data transformations.
+
+There are 2 things you should always have:
+
+1. You should have an integration test that runs the entire application. This is to ensure that the application is working as expected when all the pieces are put together. This is also called an end-to-end test.
+2. You should have at least one unit test for each _public_ function. This is because public functions are the one that will be imported and used by other applications or modules.
+
+What about the private functions? Those function that start with a `_` or a `__`? You don't really need to test those. The other problem with testing internal functions is that it increases the likelihood of your tests failing for the wrong reasons. For example, when changing something internal, that doesn't break anything but forces you to spend a long time updating all tests.
+
+But what if the internal function is critical to the application? If you really believe a particular internal function should be tested, that's a strong indicator it should be decoupled. Move it to a module of its own and make that function public.
