@@ -1,13 +1,15 @@
 # Assignment 3: Testing
 
-Assignment 3 is about testing. We currently have a single integration test, but that test is very dangerous: it deletes any resulting files - including the one the normal usage of module would create. Ideally, we would either not have our tests change actual data and not depend on connectivity in order to work, or have a database made specifically for testing.
+Assignment 3 is about testing.
+
+We currently have a single integration test, but that test is very dangerous: it deletes any files created by the application - including ones resulting from its normal usage. Ideally, we would either not have our tests change actual data and not depend on connectivity in order to work, or have a database made specifically for testing.
 
 > Don't forget to create a branch for this assignment.
 
 ## 1- Fixtures and Mocks
 
-1. Create a fixture based on the `life_expectancy\data\eu_life_expectancy_raw.tsv` data. It can be a sample, so that our tests are faster, but then replace the `life_expectancy\tests\fixtures\pt_life_expectancy_expected.csv` with the new expected data. Make the tests consume this fixture instead of the actual data. This way, assuming a scenario where the data comes from a database, we don't need access to it in order to run the tests.
-2. Patch the `pd.DataFrame.to_csv` method to make the integration test not write to a file. Instead, it should just print a message. Then, assert that the method is being called with the correct arguments. Modify your function so that the modified is always returned and that you can compare it with the expected fixture. This way, we can still test the data transformations without having to worry about the tests changing the actual data.
+1. Create a fixture based on the `life_expectancy\data\eu_life_expectancy_raw.tsv` data. It can be a sample, so that our tests are faster, but then replace the `life_expectancy\tests\fixtures\pt_life_expectancy_expected.csv` with the new expected data. Make the tests consume this fixture instead of the actual data. The idea of using fixtures instead of collecting data from a database will ensure our code is not dependent on connectivity. This will make our lives easier when we want to run our tests in a CI/CD pipeline.
+2. Patch the `pd.DataFrame.to_csv` method to make the integration test not write to a file. Instead, it should just print out a message. Then, assert that the method is being called. Modify your function so that the cleaned DataFrame is always returned. That will allow you to compare it with the expected fixture. As a bonus, by setting up your tests in this fashion, we can ensure no data transformations modifies any actual data.
 
 ## 2- VSCode Test Discovery
 
