@@ -20,7 +20,7 @@ It's the final assignment! Are you ready? If so, chaaaarge! ╰（‵□′）�
 
 > **Note**: This assignment will require your code to be reviewed by your peers.
 
-This assignment is about using design patterns to improve your code maintainability. 
+This assignment is about using design patterns to improve your code maintainability.
 
 ### Assignment #4 covers
 

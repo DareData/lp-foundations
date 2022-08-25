@@ -28,11 +28,11 @@ After this lesson you should:
 
 In the second part of the "Coding Better World Together", Uncle Bob focuses on the clean code rules for comments and rules to write names.
 
-Alter this lesson you should:
+After this lesson you should:
 
 - Understand what kinds of comments to write,
-- Know about _lying comments_ and when _not_ to write comments
-- Be able to reveal your intent while naming things
+- Know about _lying comments_ and when _not_ to write comments,
+- Be able to reveal your intent while naming things.
 
 ## Python Type Checking (Guide)
 
@@ -43,7 +43,7 @@ Alter this lesson you should:
 This is a very complete guide on Python type hints from _RealPython_. It's a comprehensive guide that covers a lot of ground and a good piece to keep for future reference.
 Type hints are optional in Python, but using them will allow you to catch bugs before they happen, and allow readers to understand your classes and functions just by looking at their signatures.
 
-Alter this lesson you should:
+After this lesson you should:
 
 - Learn how to add type hints to your code,
 - Be able to create type aliases,

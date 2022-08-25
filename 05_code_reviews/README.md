@@ -24,7 +24,7 @@ This lesson provides examples of quality criteria and code smells (I told you we
 
 After this lesson you should:
 
-- Know how give feedback in a code review.
+- Know how give feedback in a code review,
 - Know what to look for in a code review.
 
 ---

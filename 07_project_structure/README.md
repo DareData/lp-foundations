@@ -23,7 +23,7 @@ After this lesson you should:
 
 This is an useful reference guide for Python application layouts. Although it's not a tutorial, it's a good piece to keep for future reference.
 
-Note that the guide if from 2018, so we still see references of files that are now (in 2022) being replaced by the `pyproject.toml` configuration file (which replaces the `requirements.txt`, `MANIFEST.in` and `setup.py` files)
+Note that the guide is from 2018, so we still see references of files that are now (in 2022) being replaced by the `pyproject.toml` configuration file (which replaces the `requirements.txt`, `MANIFEST.in` and `setup.py` files)
 
 After this lesson you should:
 
