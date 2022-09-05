@@ -1,4 +1,4 @@
-# Continuous Integration
+# Continuous Integration (0:05)
 
 ![Coursera lecture cover](../images/a0c9ebc5c940218b85c39541b47bec57c81892ce4ed7e1e2f80307f78aeeb41c.png)  
 

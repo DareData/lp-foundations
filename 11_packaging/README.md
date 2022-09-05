@@ -1,4 +1,4 @@
-# Packaging and Publishing
+# Packaging and Publishing (0:15)
 
 [Link to tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 

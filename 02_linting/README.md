@@ -8,7 +8,7 @@ Well... close!
 
 Fortunately for use, there are tools that can help us locate code smells (remember those) and measure code quality. These tools are called linters. Though there are many linters out there, we will focus on `pylint`.
 
-## Pylint Tutorial
+## Pylint Tutorial (0:17)
 
 ![YouTube cover](../images/56c245b99f5496cbbaedeaeea515fe12c37757ed2e2e9430e7346a88d2851344.png)  
 
@@ -19,7 +19,7 @@ After this lesson you should:
 - Know how to install and set up the Pylint code linter,
 - Know the pros and cons of `pylint`.
 
-## Pylint Configuration
+## Pylint Configuration (0:20)
 
 [Link to Pylint user guide](https://pylint.pycqa.org/en/latest/user_guide/configuration/index.html)
 

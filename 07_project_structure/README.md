@@ -1,6 +1,6 @@
 # Project Structure
 
-## Clean code and project structure
+## Clean code and project structure (1:20)
 
 ![Uncle Bob - Clean code lesson 5](../images/673b0098db4c7ed5ebe5c25f3df7360300552d9f1061fdd630097b409c9c900a.png)
 
@@ -15,7 +15,7 @@ After this lesson you should:
 - Know what is the goal of Software Architecture,
 - Understand the difference between Scope and Shape.
 
-## Python application layouts
+## Python application layouts (0:15)
 
 ![RealPython cover](../images/ba19cadbefac3e8cbea6ab6829321d377e981efc409395804470873bec7e432a.png)
 
@@ -30,7 +30,7 @@ After this lesson you should:
 - How to design command line applications,
 - How to recognize web applications frameworks.
 
-## Cookiecutter Data Science
+## Cookiecutter Data Science (0:15)
 
 [Link to Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
 
@@ -40,7 +40,7 @@ After this lesson you should:
 
 - Have a reference on how to layout projects involving data flows.
 
-## Pasta-based antipatterns
+## Pasta-based antipatterns (0:10)
 
 [Link to article](https://www.techtarget.com/searchsoftwarequality/tip/Fix-spaghetti-code-and-other-pasta-theory-antipatterns)
 

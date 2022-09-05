@@ -1,6 +1,6 @@
 # Testing
 
-## How to write unit tests for existing Python code
+## How to write unit tests for existing Python code (0:42)
 
 ![Using tests to refactor a codebase](../images/b0bf092008be10cffa9b30080256114a74fcfc6615880045ab77892cb66d7b81.png)  
 
@@ -18,7 +18,7 @@ After this lesson you should:
 
 > **Note**: The author shows a `coverage` report. The package `pytest-cov` is a `pytest` plugin that generates coverage reports by adding the option `--cov` to your testing command.
 
-## Testing DataFrames
+## Testing DataFrames (0:10)
 
 [Link to Testing DataFrames tutorial](https://docs.google.com/document/u/1/d/11kl09lv2I47w1i70kwBbRMBzhprw5ja2VOm6gbzyzdc)
 

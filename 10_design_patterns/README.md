@@ -24,7 +24,7 @@ Structural patterns are design patterns that ease the design by identifying a si
 
 Behavioral patterns are design patterns that handle common communication patterns between objects. By doing so, these patterns increase flexibility in carrying out this communication. In this module, the behavioral patterns we are going to cover is the [`Strategy` pattern](#strategy-pattern) and the [`Command` pattern](#command-pattern).
 
-## Inheritance and Composition
+## Inheritance and Composition (0:45)
 
 ![Inheritance and Composition: A Python OOP Guide](../images/7c5ea6887f94bedabcc153e6a00dfb78e66203de9480b39dba43210c7de055f0.png)
 
@@ -34,7 +34,7 @@ Many of these patterns rely on the concept of inheritance and composition. Inher
 
 This guide covers the differences and tradeoffs between inheritance and composition and how they can be used to curb complexity. It's a long read, but I assure you it will make you much more comfortable with the concepts of OOP.
 
-## Strategy Pattern
+## Strategy Pattern (0:27)
 
 [Link to video](https://youtu.be/n2b_Cxh20Fw)
 
@@ -46,7 +46,7 @@ After this video, you should be able to:
 
 - Apply the pattern using both Protocol and dataclasses
 
-## Adapter Pattern
+## Adapter Pattern (0:23)
 
 ![Let's Take The Adapter Design Pattern To The Next Level](../images/2df8b1ac8039fae5b616f37f12128a1e53512e17417fbcf52f4d6bee85ab319b.png)  
 
@@ -54,7 +54,7 @@ After this video, you should be able to:
 
 The Adapter pattern is really useful if you need to connect your application with another system, but you can't change the code of that system and you want to reduce coupling. In this video you'll learn how the pattern works, and then see a functional variant of the pattern using partial application.
 
-## Command Pattern
+## Command Pattern (0:32)
 
 [Link to video](https://youtu.be/FM71_a3txTo)
 
@@ -62,7 +62,7 @@ The Command pattern turns a request into a stand-alone object that contains all 
 
 In this video, you'll learn how the Command pattern work by implementing "undo" and "redo" behavior to an application.
 
-## Factory Pattern
+## Factory Pattern (0:15)
 
 ![The Factory Pattern in Python](../images/ad49bb93d87030004fd99622041be809a325d58ba1326fcd8847f833b42c6346.png)
 

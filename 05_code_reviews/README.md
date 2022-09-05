@@ -2,7 +2,7 @@
 
 Code reviews are the bread-and-butter of collaborative software development. Not only they are a way to ensure that code is of high quality, but also a way to share knowledge and learn from each other.
 
-## How to review changes
+## How to review changes (0:10)
 
 [Link to GitHub tutorial](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
 
@@ -14,7 +14,7 @@ After this lesson you should:
 
 - Know how to review a pull request.
 
-## MIT on code reviews
+## MIT on code reviews (0:30)
 
 ![Above-the-fold screenshot of MIT's Software Construction lesson](../images/768daa7ecdc979b5d0812f7435902305e8e63ba1493af5e2b5c70239b3ab33d6.png)
 

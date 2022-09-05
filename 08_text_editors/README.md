@@ -1,6 +1,6 @@
 # Text editors
 
-## Get started with Python in VS Code 
+## Get started with Python in VS Code (0:20)
 
 [Link to VS Code docs](https://code.visualstudio.com/docs/python/python-tutorial)
 
@@ -14,13 +14,13 @@ After this lesson you should:
 - Know about what comes in the official Python plugin,
 - Know how to run the debugger.
 
-## Setting up VS Code for Python development
+## Setting up VS Code for Python development (0:10)
 
 [Link to document](https://docs.google.com/document/u/1/d/1xHJ9Kq9OVsWh4OH8DYB_7dsKW2tzCPZ8FOI9VrGU2SU)
 
 This document helps you setup VS Code's Test Explorer, Tasks. It also provides some plugins recommendations.
 
-## Python Productivity on VS Code
+## Python Productivity on VS Code (0:08)
 
 ![8 Tips to SKYROCKET your Python Productivity on VS Code](../images/10b7c07302d9be872cb991d9c1784df7bf45bbb770db80925415605cf49129b4.png)  
 

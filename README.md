@@ -72,44 +72,44 @@ In order to make the best use out of this learning path, you should know:
 
 ## Suggested learning calendar
 
-> ⚠️**Note**: This is just a suggestion. Groups are encouraged to set their own deadlines with their mentors.
+> **Note**: This is just a suggestion. Groups are encouraged to set their own deadlines with their mentors.
 
-Week 01
+Week 01 _(~5 hours)_
 
 - Clean code
 
-Week 02
+Week 02 _(~1.5 hours)_
 
 - Linting
 - Continuous integration
 - Assignment #1
 
-Week 03
+Week 03 _(~1.5 hours)_
 
 - Git strategies
 - Code reviews
 - Assignment #2
 
-Week 04
+Week 04 _(~3 hours)_
 
 - Testing
 - Project structure
 - Text editors
 
-Week 05
+Week 05 _(~2 hours)_
 
 - Assignment #3
 
-Week 06
+Week 06 _(~2.5 hours)_
 
 - Object-oriented programming
 
-Week 07
+Week 07 _(~2.5 hours)_
 
 - Design patterns
 - Packaging and publishing
 
-Week 08
+Week 08 _(~2 hours)_
 
 - Assignment #4
 

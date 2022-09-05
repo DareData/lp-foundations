@@ -1,4 +1,4 @@
-# Git strategies
+# Git strategies (0:12)
 
 ![Diagram of Gitflow](../images/3c50c2d4bb542dafb3c74ba45eaeb0d59f7ef47f1a80e74407f793ceda01e17a.png)
 

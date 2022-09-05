@@ -8,7 +8,7 @@ Code is read more often than it is written, so we should should always our code 
 
 This module focuses on the principles of clean code, and how to apply them to your own code.
 
-## Uncle Bob - Clean code lesson 1
+## Uncle Bob - Clean code lesson 1 (1:48)
 
 ![Uncle Bob - Clean code lesson 1](../images/27c5bc65a8bfeb5ac8d50003f71ca50734341593f7a243670e6c8e34ec4789b3.png)
 
@@ -22,7 +22,7 @@ After this lesson you should:
 - Learn how to start refactoring your current codebase,
 - Antipatterns to avoid.
 
-## Uncle Bob - Clean code lesson 2
+## Uncle Bob - Clean code lesson 2 (1:06)
 
 [Link to video](https://www.youtube.com/watch?v=2a_ytyt9sf8)
 
@@ -34,7 +34,7 @@ After this lesson you should:
 - Know about _lying comments_ and when _not_ to write comments,
 - Be able to reveal your intent while naming things.
 
-## Python Type Checking (Guide)
+## Python Type Checking (Guide) (1:40)
 
 ![RealPython cover](../images/4b3cc00ea7b463fb46c2dfbe07beab3d6e708384e6938b82cc3e4f65767da9e2.png)  
 
@@ -49,7 +49,7 @@ After this lesson you should:
 - Be able to create type aliases,
 - Know how to run a static type checker like `mypy`.
 
-## 7 Python Code Smells
+## 7 Python Code Smells (0:22)
 
 ![Arjan Codes YouTube cover](../images/186f8c6d5b3ee296613d84f8b1b5a304ca39034a513d79bcd09688ef91f8b6cb.png)
 
