@@ -4,14 +4,15 @@ There are 2 parts to this assignment: cleaning the data and ensuring good code q
 
 Let's break it down:
 
-```
-life_expectancy
-├── pyproject.toml     <- Meta-information about the project, like the author's name, the version, the dependencies, and 
-|                         instructions of how some developer tools are to be run.
-├── README.md          <- The top-level README for developers using this project.
-├── data               <- Data files are to be kept in this directory
-└── tests              <- Directory for tests. `pytest`, our testing framework, will try to find this folder and run all 
-                          tests inside it.
+```bash
+assignments
+├── life_expectancy    # This directory contains the package you'll be creating on the assignment
+| ├── data             # Data files are to be kept in this directory
+| └── tests            # Directory for tests. `pytest`, our testing framework, will try to find this folder and run all 
+|                      #   tests inside it.
+├── pyproject.toml     # Meta-information about the project, like the author's name, the version, the dependencies, and 
+|                      #   instructions of how some developer tools are to be run.
+└── README.md          # The top-level README for developers using this project.
 ```
 
 The datafiles are in TSV format in wide format. The first column is a composed one, containing 5 different information (unit, sex, age, geo). The next columns are temporal values, the life expectancy in years.
@@ -45,11 +46,14 @@ For this refactoring section, we have 3 activities:
 
 Now, let's create a CI pipeline for this project. We will use GitHub Actions for this.
 
-1. Create a new repo for this project.
+1. Create a new repo for this project on GitHub.
+   1. Ensure your code follows the structure described above. It can have other files, but it should have the `life_expectancy` folder (and your code in ), the `README.md` and `pyproject.toml` on the project root.
+   2. It should have a `.gitignore` file. You can read more information on what it is [here](https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/) and [here](https://github.com/github/gitignore/blob/main/Python.gitignore) is a good example to use for python projects.
+   3. Push your code to GitHub.
 2. Create a new branch called `ci`. The pipeline should:
    1. Run `pytest` on the code
    2. Run `pylint` on the code.
    3. Be triggered on every push to the `main` branch and every pull request update.
 3. Create a pull request from `ci` to `main`. Don't merge it yet! If the workflow triggers were correct, GitHub should try to run the workflow. If it doesn't or if it fails, try to fix it with additional commits to the `ci` branch.
-4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Select the workflow run and then click the "..." button: a "Create status badge" option should appear. Open the `ci` branch on your local machine (a quick way to do this is with the `git switch ci` command), paste the provided markdown to the project's `README.md` and push this commit.
+4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Select the workflow run and then click the "..." button: a "Create status badge" option should appear. Open the `ci` branch on your local machine (a quick way to do this, if you haven't created a local `ci` branch yet, is to use the `git switch ci` command), paste the provided markdown to the project's `README.md` and push this commit.
 5. Merge the pull request when the pipeline succeeds.
