@@ -46,7 +46,7 @@ For this refactoring section, we have 3 activities:
 
 Now, let's create a CI pipeline for this project. We will use GitHub Actions for this.
 
-1. Create a new repo for this project on GitHub.
+1. Create a new personal and public repo for this project on GitHub.
    1. Ensure your code follows the structure described above. It can have other files, but it should have the `life_expectancy` folder (and your code in ), the `README.md` and `pyproject.toml` on the project root.
    2. It should have a `.gitignore` file. You can read more information on what it is [here](https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/) and [here](https://github.com/github/gitignore/blob/main/Python.gitignore) is a good example to use for python projects.
    3. Push your code to GitHub.
