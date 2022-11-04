@@ -1,5 +1,8 @@
 # Assignment 1: EU Life Expectancy
 
+> **Warning**
+> Before starting this assignment, make sure you have read the [project's setup instructions](../README.md) carefully.
+
 There are 2 parts to this assignment: cleaning the data and ensuring good code quality. The project is in the `life_expectancy` folder.
 
 Let's break it down:
