@@ -66,6 +66,6 @@ In this video, you'll learn how the Command pattern work by implementing "undo" 
 
 ![The Factory Pattern in Python](../images/ad49bb93d87030004fd99622041be809a325d58ba1326fcd8847f833b42c6346.png)
 
-[Link to video](https://youtu.be/FM71_a3txTo)
+[Link to video](https://www.youtube.com/watch?v=s_4ZrtQs8Do)
 
 With the (Abstract) Factory pattern, you can separate creation from usage. It allows, for example, to create objects without specifying the exact class of object that will be created. This video explains what the Factory pattern is, and how to use it in Python.
