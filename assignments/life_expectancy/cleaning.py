@@ -42,7 +42,7 @@ def apply_data_types(data_frame: pd.DataFrame) -> pd.DataFrame:
 def clean_data(region: str = 'PT') -> None:
     """Main function to Clean Data and Filter Region"""
     clean_df = apply_data_types(apply_unpivot(load_data()))
-    if sys.argv[1] != '':
+    if sys.argv and len(sys.argv) > 1:
         filter_df = clean_df[clean_df.region.str.upper() == sys.argv[1].upper()]
     filter_df = clean_df[clean_df.region.str.upper() == region.upper()]
     filter_df.to_csv(Path(f'{DIR_PATH}/data/pt_life_expectancy.csv'), index=False)
