@@ -18,7 +18,7 @@ assignments
 └── README.md          # The top-level README for developers using this project.
 ```
 
-The datafiles are in TSV format in wide format. The first column is a composed one, containing 5 different information (unit, sex, age, geo). The next columns are temporal values, the life expectancy in years.
+The datafiles are in TSV format in wide format. The first column is a composed one, containing 4 different information (unit, sex, age, geo). The next columns are temporal values, the life expectancy in years.
 
 These are the code requirements for part one:
 
