@@ -23,5 +23,28 @@ Assign a colleague to review your code. You should receive to opportunity to rev
 - Is the code free of magic numbers?
 - Is the code free of duplication?
 - Are the functions stored in modules with semantic meaning?
+- Is there anything really cool your peer did? _Give them a compliment!_
 
 You'll probably have to tweak your own code based on your peer's feedback as well. Only merge it once the reviewer approves it.
+
+### About the code review
+
+The reviewer will only have access to code that's different from the `main` branch. This means that the reviewer will not be able to see the code from the previous lesson. Because this is the first contact the reviewer will have with your repository, it might be useful for the reviewer so see all your code. You can do this by creating a second pull request to an empty branch. This is how you can do it:
+
+1. Create an empty branch called `empty_branch`:
+
+    ```bash
+    git checkout --orphan empty_branch
+    git rm -rf .
+    git commit --allow-empty -m "root commit"
+    git push origin empty_branch
+
+    git checkout refactoring
+    git merge empty_branch --allow-unrelated-histories
+    git push origin refactoring
+    ```
+
+2. Create a pull request from `refactoring` to `empty_branch`.
+3. Assign a colleague to review your code.
+4. After the review, merge the pull request.
+5. Finally a pull request from `refactoring` to `main` or simply merge the `refactoring`.
