@@ -20,20 +20,19 @@ After this lesson you should:
 
 This document helps you setup VS Code's Test Explorer, Tasks. It also provides some plugins recommendations.
 
-[![How To Setup A MacBook Pro M1 For Software Development](../images/7ed957c42eda58cf652e0a6231c514c18357aa61b83eb5cceb12603fef9b82ac.png)](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s)
 
-[On this video](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s) (starting at 15 minutes), Arjan will also help you to setup your VS Code and provides some plugins recommendations. If you are using a Mac, the entire video is worth it. 
+[![How To Setup A MacBook Pro M1 For Software Development](../images/7ed957c42eda58cf652e0a6231c514c18357aa61b83eb5cceb12603fef9b82ac.png)](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s)   
+[This video](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s) (starting at 15 minutes) will provide an additional assistance on VS code setup and plugins recommendations. If you are using a Mac, the entire video is worth it. 
 
 ## Python Productivity on VS Code (0:08 + 0:17)
 
 ![8 Tips to SKYROCKET your Python Productivity on VS Code](../images/10b7c07302d9be872cb991d9c1784df7bf45bbb770db80925415605cf49129b4.png)  
-
 [Link to video](https://youtu.be/slHzJh6pGo8)
 
 This video shows you tips and shortcuts than can really make your life easier when using VS Code.
 
-[![30 VSCode Keyboard Shortcuts You NEED to Know](../images/7e14212a10f18175238ee3e16b54f85b54126843a0d2c21fee8fdce149257282.png)](https://youtu.be/dI34jrEtmB0)
 
+[![30 VSCode Keyboard Shortcuts You NEED to Know](../images/7e14212a10f18175238ee3e16b54f85b54126843a0d2c21fee8fdce149257282.png)](https://youtu.be/dI34jrEtmB0)   
 [In this video](https://youtu.be/dI34jrEtmB0), once again, our friend Arjan will show you a bunch of useful VS Code keyboard shortcuts to use it like a pro!
 
 After these series of videos, VS Code should have no more secrets for you.
