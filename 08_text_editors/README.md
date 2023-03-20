@@ -16,10 +16,8 @@ After this lesson you should:
 
 ## Setting up VS Code for Python development (0:10 + 0:06)
 
-[Link to document](https://docs.google.com/document/u/1/d/1xHJ9Kq9OVsWh4OH8DYB_7dsKW2tzCPZ8FOI9VrGU2SU)
-
+[Link to document](https://docs.google.com/document/u/1/d/1xHJ9Kq9OVsWh4OH8DYB_7dsKW2tzCPZ8FOI9VrGU2SU)   
 This document helps you setup VS Code's Test Explorer, Tasks. It also provides some plugins recommendations.
-
 
 [![How To Setup A MacBook Pro M1 For Software Development](../images/7ed957c42eda58cf652e0a6231c514c18357aa61b83eb5cceb12603fef9b82ac.png)](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s)   
 [This video](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s) (starting at 15 minutes) will provide an additional assistance on VS code setup and plugins recommendations. If you are using a Mac, the entire video is worth it. 
@@ -27,8 +25,7 @@ This document helps you setup VS Code's Test Explorer, Tasks. It also provides s
 ## Python Productivity on VS Code (0:08 + 0:17)
 
 ![8 Tips to SKYROCKET your Python Productivity on VS Code](../images/10b7c07302d9be872cb991d9c1784df7bf45bbb770db80925415605cf49129b4.png)  
-[Link to video](https://youtu.be/slHzJh6pGo8)
-
+[Link to video](https://youtu.be/slHzJh6pGo8)   
 This video shows you tips and shortcuts than can really make your life easier when using VS Code.
 
 
