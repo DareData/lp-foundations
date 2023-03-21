@@ -31,8 +31,13 @@ This document helps you setup VS Code's Test Explorer, Tasks. It also provides s
 This video shows you tips and shortcuts that can really make your life easier when using VS Code.
 
 
-[![30 VSCode Keyboard Shortcuts You NEED to Know](../images/7e14212a10f18175238ee3e16b54f85b54126843a0d2c21fee8fdce149257282.png)](https://youtu.be/dI34jrEtmB0)   
-[In this video](https://youtu.be/dI34jrEtmB0), once again, our friend Arjan will show you a bunch of useful VS Code keyboard shortcuts to use it like a pro!
+### BONUS CONTENT - More shortcuts!
+
+You sure learned a bunch of tricks by now. Want to learn a few more?
+
+[![30 VSCode Keyboard Shortcuts You NEED to Know](../images/7e14212a10f18175238ee3e16b54f85b54126843a0d2c21fee8fdce149257282.png)](https://youtu.be/dI34jrEtmB0)
+
+[In this video](https://youtu.be/dI34jrEtmB0), once again, our friend Arjan will show you a bunch of useful VS Code keyboard shortcuts that will help use it like a pro!
 
 After these series of videos, VS Code should have no more secrets for you.
 
