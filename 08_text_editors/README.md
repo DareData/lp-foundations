@@ -16,7 +16,8 @@ After this lesson you should:
 
 ## Setting up VS Code for Python development (0:10 + 0:06)
 
-[Link to document](https://docs.google.com/document/u/1/d/1xHJ9Kq9OVsWh4OH8DYB_7dsKW2tzCPZ8FOI9VrGU2SU)   
+[Link to document](https://docs.google.com/document/u/1/d/1xHJ9Kq9OVsWh4OH8DYB_7dsKW2tzCPZ8FOI9VrGU2SU)
+
 This document helps you setup VS Code's Test Explorer, Tasks. It also provides some plugins recommendations.
 
 [![How To Setup A MacBook Pro M1 For Software Development](../images/7ed957c42eda58cf652e0a6231c514c18357aa61b83eb5cceb12603fef9b82ac.png)](https://www.youtube.com/watch?v=5eSaJGSGLs0&t=900s)   
