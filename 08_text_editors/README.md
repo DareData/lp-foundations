@@ -25,8 +25,10 @@ This document helps you setup VS Code's Test Explorer, Tasks. It also provides s
 ## Python Productivity on VS Code (0:08 + 0:17)
 
 ![8 Tips to SKYROCKET your Python Productivity on VS Code](../images/10b7c07302d9be872cb991d9c1784df7bf45bbb770db80925415605cf49129b4.png)  
-[Link to video](https://youtu.be/slHzJh6pGo8)   
-This video shows you tips and shortcuts than can really make your life easier when using VS Code.
+
+[Link to video](https://youtu.be/slHzJh6pGo8) 
+
+This video shows you tips and shortcuts that can really make your life easier when using VS Code.
 
 
 [![30 VSCode Keyboard Shortcuts You NEED to Know](../images/7e14212a10f18175238ee3e16b54f85b54126843a0d2c21fee8fdce149257282.png)](https://youtu.be/dI34jrEtmB0)   
