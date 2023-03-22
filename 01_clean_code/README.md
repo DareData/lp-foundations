@@ -4,7 +4,7 @@ People who write code are often not the same people who maintain it. Trying to u
 
 ![Reading bad code can be quite the adventure](../images/67178102e022f9ea214baf9f58f0e44fcdef9a123c64e3abf70cee8ba00bc511.png)  
 
-Code is read more often than it is written, so we should should always our code thinking about the person who will eventually read it - even when that person turns out to be you. Being able to return to previously written code and understand what it does is key, especially in the software development world.
+Code is read more often than it is written, so we should always write our code thinking about the person who will eventually read it - even when that person turns out to be you. Being able to return to previously written code and understand what it does is key, especially in the software development world.
 
 This module focuses on the principles of clean code, and how to apply them to your own code.
 
