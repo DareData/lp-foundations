@@ -24,10 +24,15 @@ This document helps you setup VS Code's Test Explorer, Tasks. It also provides s
 
 ![8 Tips to SKYROCKET your Python Productivity on VS Code](../images/10b7c07302d9be872cb991d9c1784df7bf45bbb770db80925415605cf49129b4.png)  
 
-[Link to video](https://youtu.be/slHzJh6pGo8) 
+[Link to video](https://youtu.be/slHzJh6pGo8)
 
 This video shows you tips and shortcuts that can really make your life easier when using VS Code.
 
+> **One shortcut to rule them all**: If you want to search for any shortcuts on VSCode, use `Ctrl + K` followed by `Ctrl + S` to open the keyboard shortcuts menu.
+
+Note that, depending on your keyboard, the shortcuts may differ. Here are some options we found:
+
+- Comment toggle: `Crtl+ ^` or `Ctrl + ~` (instead of `Crtl + /`)
 
 ### BONUS CONTENT - More shortcuts! (0:17)
 
