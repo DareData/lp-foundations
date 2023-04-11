@@ -32,7 +32,7 @@ These are the code requirements for part one:
     4. Ensures `value` is a `float` (with the appropriate data cleaning if required, and do remove the `NaN`s).
     5. Filters only the data where `region` equal to `PT` (Portugal).
     6. Save the resulting data frame to the `data` folder as `pt_life_expectancy.csv`. Ensure that no numerical index is saved.
-3. Verify that your code runs by running `pytest life_expectancy --cov`.
+3. Verify that your code runs by running `pytest life_expectancy --cov`[^1].
 
 If everything runs, congrats! Move on to the next part.
 
@@ -60,3 +60,5 @@ Now, let's create a CI pipeline for this project. We will use GitHub Actions for
 3. Create a pull request from `ci` to `main`. Don't merge it yet! If the workflow triggers were correct, GitHub should try to run the workflow. If it doesn't or if it fails, try to fix it with additional commits to the `ci` branch.
 4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Select the workflow run and then click the "..." button: a "Create status badge" option should appear. Open the `ci` branch on your local machine (a quick way to do this, if you haven't created a local `ci` branch yet, is to use the `git switch ci` command), paste the provided markdown to the project's `README.md` and push this commit.
 5. Merge the pull request when the pipeline succeeds.
+
+[^1]: Do you want to know what the `--cov` flag does? It's a flag for the `pytest` command that tells it to run the code coverage tool. You can read more about it [here](06_testing/coverage.md).
