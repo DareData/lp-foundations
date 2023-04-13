@@ -1,6 +1,6 @@
 # Test Coverage
 
-Test coverage is a software development metric that measures the how much of your code is covered by tests. It's typically expressed as a percentage, where higher percentages indicate more extensive testing.
+Test coverage is a software development metric that measures how much of your code is covered by tests. It's typically expressed as a percentage, where higher percentages indicate more extensive testing.
 
 Test coverage is important for several reasons:
 
@@ -22,11 +22,11 @@ Then run `pytest` with the `--cov` flag:
 pytest tests/ --cov
 ```
 
-> **Note**: Remember that a high coverage doesn't guarantee bug-free code, as it only shows which parts of the code are executed during testing, not if the tests are effective or meaningful. Don't writ unnecessary tests just to increase coverage.
+> **Note**: Remember that a high coverage doesn't guarantee bug-free code, as it only shows which parts of the code are executed during testing, not if the tests are effective or meaningful. Don't write unnecessary tests just to increase coverage.
 
 ## HTML Reports
 
-Sometime you want to see exactly what lines are not being covered by tests. To answer that question, you can generate an HTML report.
+Sometimes you want to see exactly what lines are not being covered by tests. To answer that question, you can generate an HTML report.
 
 ### Using `pytest-cov` plugin
 
