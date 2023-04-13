@@ -61,4 +61,4 @@ Now, let's create a CI pipeline for this project. We will use GitHub Actions for
 4. Add a badge to the `README.md` file that shows the status of the pipeline. You can find the badge in the `Actions` tab of the repo. Select the workflow run and then click the "..." button: a "Create status badge" option should appear. Open the `ci` branch on your local machine (a quick way to do this, if you haven't created a local `ci` branch yet, is to use the `git switch ci` command), paste the provided markdown to the project's `README.md` and push this commit.
 5. Merge the pull request when the pipeline succeeds.
 
-[^1]: Do you want to know what the `--cov` flag does? It's a flag for the `pytest` command that tells it to run the code coverage tool. You can read more about it [here](../06_testing/coverage.md).
+[^1]: Do you want to know what the `--cov` flag does? It's a flag for the `pytest` command that tells it to run the code coverage tool. You can read more about it [here](../../06_testing/coverage.md).
