@@ -7,14 +7,15 @@ Ever stumbled upon the mysterious "Relative import" error? Or wondered why you c
 - **Script**: A standalone Python file (or Jupyter Notebook). It's like a solo singer
 - **Package**: A collection of Python files that play well together.
 
-There is a big difference between directly running a Python file, and importing that file from a package. When you're working in a notebook (like a Jupyter notebook) or running a script, Python sees it from a specific location on your computer.
+There is a big difference between directly running a Python file and importing that file from a package. When you're working in a notebook (like a Jupyter notebook) or running a script, Python sees it from a specific location on your computer.
 
-> If your script/notebook is inside a folder, it might not easily recognize or access files in the _parent directory_ or _folders above_ it. 😵‍💫
+> If your script/notebook is inside a folder, it might not easily recognize or access files in the **parent directory** or **folders above** it. 😵‍💫
 >
-> But it will be able to access files in the _same folder_ or _folders below_ it. 🤗
+> But it will be able to access files in the **same folder** or **folders below** it. 🤗
 
-To solve this, you must tell Python where to look for the files you want to import. There are two ways to do this:
+To solve this, you must either restructure your project or tell Python where to look for the files you want to import. There are two ways to do this:
 
+- **The crazed way**: Restructure your project so that all imports come either from its sibling modules. **This is a TEMPORARY solution. Only do this for throwaway code, like experiment notebooks that reuse some code**.
 - **The dirty, not at all recommended way**: You can add the parent directory to the `sys.path` list. This is a list of directories that Python searches when looking for files to import. You can add a directory to this list with `import sys sys.path.append("..")`. This is not recommended because it can cause problems if you have multiple files with the same name in different directories. It's also not very clear to other people reading your code.
 - **The clean, recommended way**: You can turn your code into a package. 🎉
   - It's a more structured solution. This means organizing your code in a way that Python recognizes it as a cohesive unit.
