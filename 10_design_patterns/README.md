@@ -69,3 +69,26 @@ In this video, you'll learn how the Command pattern work by implementing "undo" 
 [Link to video](https://www.youtube.com/watch?v=s_4ZrtQs8Do)
 
 With the (Abstract) Factory pattern, you can separate creation from usage. It allows, for example, to create objects without specifying the exact class of object that will be created. This video explains what the Factory pattern is, and how to use it in Python.
+
+---
+
+## Assignment #4
+
+It's the final assignment! Are you ready? If so, chaaaarge! ╰（‵□′）╯
+
+> **Note**: This assignment will require your code to be reviewed by your peers.
+
+This assignment is about using design patterns to improve your code maintainability.
+
+### Assignment #4 covers
+
+- Enums
+- Design patterns
+- Object composition
+- Testing objects
+
+`cd` into the `assignments` folder, and let's go!
+
+I would wish you good luck, but at this point I know you don't need it. You've got this! And don't forget: the biggest lesson is all this is to always treasure the lovely memories we all made together! (✿◠‿◠)
+
+![Ron Swanson](../images/520ab75ccc1618a9127019fbb2ad1c0d262ed4b64ef217245fa5239a7f956f79.png)  
