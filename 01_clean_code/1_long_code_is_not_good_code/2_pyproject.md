@@ -114,6 +114,31 @@ project_directory/
 
 If you have a different structure, you have to let your `pyproject.toml` file know where it can find your package. Each build tool will have its own syntax for this, but you can always consult the documentation. For example, here's the one for [`setuptools`](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html).
 
+### Installing 💪
+
+Once you have your `pyproject.toml` file, you can install your package in editable mode with:
+
+```bash
+# Remember to active your virtual environment first!
+pip install -e '<path_to_your_pyproject>[optional dependency groups]'
+```
+
+The `-e` argument means "editable". This means that any changes you make to your package will be immediately reflected when you use it. This is great for development, but you should remove it when in production or when running from a CI/CD pipeline.
+
+So if you have a `dev` dependency group and your terminal is at the project root, the command would be:
+
+```bash
+pip install -e '.[dev]'
+```
+
+Or if you don't have any optional dependencies, just:
+
+```bash
+pip install -e .
+```
+
+Boom! You can now import your package without errors! 👌
+
 ## Wrapping Up 🎉
 
 With `pyproject.toml`, you're not just writing code; you're crafting an experience! 🌈
