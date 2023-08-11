@@ -16,7 +16,7 @@ After this lesson you should:
 
 ## Python Type Checking (Guide) (1:40)
 
-![RealPython cover](../images/4b3cc00ea7b463fb46c2dfbe07beab3d6e708384e6938b82cc3e4f65767da9e2.png)  
+![RealPython cover](../../images/4b3cc00ea7b463fb46c2dfbe07beab3d6e708384e6938b82cc3e4f65767da9e2.png)  
 
 [Link to RealPython guide](https://realpython.com/python-type-checking/)
 
@@ -31,7 +31,7 @@ After this lesson you should:
 
 Nowadays, VSCode usually comes with a type checked installed by default. But the button to activate is easy to miss. If you have a type checker installed, you should see a button like this one on the bottom bar of your VSCode window:
 
-![<img src="../../images/activate_type_checking.png" alt="Activate type checking on VSCode" width="600"/>](../../images/activate_type_checking.png)
+![<img src="../../images/activate_type_checking.png" alt="Activate type checking on VSCode" width="300"/>](../../images/activate_type_checking.png)
 
 Now you should see the errors and warnings in your code in the "Problems" tab (it sits next to your integrated terminal window). Personally, I like to use the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) add-on to make the errors and warnings more visible:
 
