@@ -74,45 +74,49 @@ In order to make the best use out of this learning path, you should know:
 
 > **Note**: This is just a suggestion. Groups are encouraged to set their own deadlines with their mentors.
 
-Week 01 _(~5 hours)_
+Week 01 _(~3 hours)_
 
-- Clean code
+- Clean code part 1: Long code is not good code
+- Setting up your assignment repository
 
-Week 02 _(~1.5 hours)_
+Week 02 _(~3 hours)_
+
+- Clean code part 2: Names and Comments
+
+Week 03 _(~1.5 hours)_
 
 - Linting
 - Continuous integration
 
-Week 03 _(~2.5 hours)_
+Week 04 _(~2.5 hours)_
 
 - Assignment #1
 
-Week 04 _(~1.5 hours)_
+Week 05 _(~1.5 hours)_
 
 - Git strategies
 - Code reviews
 - Assignment #2
 
-Week 05 _(~3 hours)_
+Week 06 _(~3 hours)_
 
 - Testing
 - Project structure
 - Text editors
 
-Week 06 _(~2 hours)_
+Week 07 _(~2 hours)_
 
 - Assignment #3
 
-Week 07 _(~2.5 hours)_
+Week 08 _(~2.5 hours)_
 
 - Object-oriented programming
 
-Week 08 _(~2.5 hours)_
+Week 09 _(~2.5 hours)_
 
 - Design patterns
-- Packaging and publishing
 
-Week 09 _(~2 hours)_
+Week 10 _(~2 hours)_
 
 - Assignment #4
 
@@ -121,3 +125,9 @@ Week 09 _(~2 hours)_
 Assignments are located inside the `assignments` folder. The assignment instructions assume you are issuing commands from that folder.
 
 In it, you'll find a project folder called `life_expectancy` as well as folders with instructions for each assignment. Each assignment builds upon the previous one and they are all meant to be do inside the project folder.
+
+## Call to Adventure
+
+The goal of this course is to be your personal companion on being a better programmer. We hope you enjoy it and learn a lot from it.
+
+Feel free to open [GitHub issues](https://github.com/DareData/lp-foundations/issues) to give us feedback and ideas for new features. Or even better, open a [pull request](https://github.com/DareData/lp-foundations/pulls) with your suggestions.
