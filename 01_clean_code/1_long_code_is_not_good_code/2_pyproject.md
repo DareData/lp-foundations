@@ -112,7 +112,7 @@ project_directory/
     └── example.py
 ```
 
-If you have a different structure, you have to let define in your `pyproject.toml` file where your package is. Each build tool will have its own syntax for this, but you can always consult the documentation. For example, here's the one for [`setuptools`](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html).
+If you have a different structure, you have to let your `pyproject.toml` file know where it can find your package. Each build tool will have its own syntax for this, but you can always consult the documentation. For example, here's the one for [`setuptools`](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html).
 
 ## Wrapping Up 🎉
 
