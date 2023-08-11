@@ -4,11 +4,11 @@
 
 [Link to VS Code docs](https://code.visualstudio.com/docs/python/python-tutorial)
 
-This is the official VS Code tutorial about how to setup VS Code and run/debug a script.
+This is the official VS Code tutorial about how to set up VS Code and run/debug a script.
 
-> **You should read this is**: you have never debugged a script/project on an IDE or Text Editor before.
+> **You should read this if**: you have never debugged a script/project on an IDE or Text Editor before.
 
-After this lesson you should:
+After this lesson, you should:
 
 - Know how to select a Python interpreter,
 - Know about what comes in the official Python plugin,
