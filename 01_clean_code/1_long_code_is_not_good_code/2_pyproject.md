@@ -45,7 +45,7 @@ That's what `pyproject.toml` is for. It's a configuration file that tells Python
 2. **Flexibility**: More control over how projects are built and packaged.
 3. **Clarity**: Clearer ways to specify dependencies and metadata.
 
-It's now the canonical way of doing things, backed by [`PEP 518`](https://peps.python.org/pep-0518/) and [`PEP 621`(https://peps.python.org/pep-0621/)].
+It's now the canonical way of doing things, backed by [`PEP 518`](https://peps.python.org/pep-0518/) and [`PEP 621`](https://peps.python.org/pep-0621/).
 
 ## Crafting Your `pyproject.toml` 🛠️
 
