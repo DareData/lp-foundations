@@ -7,7 +7,7 @@ Ever stumbled upon the mysterious "Relative import" error? Or wondered why you c
 - **Script**: A standalone Python file (or Jupyter Notebook). It's like a solo singer
 - **Package**: A collection of Python files that play well together.
 
-There is a big difference between directly running a Python file and importing that file from a package. When you're working in a notebook (like a Jupyter notebook) or running a script, Python sees it from a specific location on your computer.
+There is a big difference between directly running a Python file and importing that file from a package. When you're working in a notebook (like a Jupyter notebook) or running a script, Python sees it from a specific location on your computer but it may not know where your imports are.
 
 > If your script/notebook is inside a folder, it might not easily recognize or access files in the **parent directory** or **folders above** it. 😵‍💫
 >
