@@ -13,7 +13,7 @@ There is a big difference between directly running a Python file and importing t
 >
 > But it will be able to access files in the **same folder** or **folders below** it. 🤗
 
-To solve this, you must either restructure your project or tell Python where to look for the files you want to import. There are two ways to do this:
+To solve this, you must either restructure your project or tell Python where to look for the files you want to import. There are 3 ways to do this:
 
 - **The crazed way**: Restructure your project so that all imports come either from its sibling modules. **This is a TEMPORARY solution. Only do this for throwaway code, like experiment notebooks that reuse some code**.
 - **The dirty, not at all recommended way**: You can add the parent directory to the `sys.path` list. This is a list of directories that Python searches when looking for files to import. You can add a directory to this list with `import sys sys.path.append("..")`. This is not recommended because it can cause problems if you have multiple files with the same name in different directories. It's also not very clear to other people reading your code.
