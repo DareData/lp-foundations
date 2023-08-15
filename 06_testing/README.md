@@ -20,7 +20,7 @@ After this lesson you should:
 
 ## Testing DataFrames (0:10)
 
-[Link to Testing DataFrames tutorial](https://docs.google.com/document/u/1/d/11kl09lv2I47w1i70kwBbRMBzhprw5ja2VOm6gbzyzdc)
+[Link to Testing DataFrames tutorial](testing_dataframes.md)
 
 Testing data is a little bit different than testing regular Python code. In this lesson, you will learn how to test Pandas and Pyspark DataFrames.
 
@@ -41,3 +41,9 @@ There are 2 things you should always have:
 What about the private functions? Those function that start with a `_` or a `__`? You don't really need to test those. The other problem with testing internal functions is that it increases the likelihood of your tests failing for the wrong reasons. For example, when changing something internal, that doesn't break anything but forces you to spend a long time updating all tests.
 
 But what if the internal function is critical to the application? If you really believe a particular internal function should be tested, that's a strong indicator it should be decoupled. Move it to a module of its own and make that function public.
+
+## Extra resources
+
+These are optional, but hey can be useful if you want to learn more about testing.
+
+- [Code coverage](coverage.md) - What is code coverage and how to use it with `pytest`.
