@@ -4,6 +4,8 @@
 
 ![Unit Testing with PyTest](./../images/unit-test-with-pytest-cover.png)
 
+[Link to video](https://youtu.be/YbpKMIUjvK8)
+
 This video is meant to be your first contact with Pytest. It will show you how to write unit tests for a simple shopping cart application..
 
 - Unit tests are functions that check if your code or application works as intended.
@@ -31,9 +33,12 @@ A couple of warnings about the next video:
 
 ![mock patch in seven minutes](./../images/mock-path-seven-minutes.png)
 
+[Link to video](https://youtu.be/_OyuFg9pGQg)
+
 ## Testing DataFrames (0:10)
 
 [Link to Testing DataFrames tutorial](testing_dataframes.md)
+
 
 Testing data is a little bit different than testing regular Python code. In this lesson, you will learn how to test Pandas and Pyspark DataFrames.
 
@@ -41,6 +46,20 @@ After this lesson you should:
 
 - Know how to test Pandas DataFrames with the `pandas.testing` module,
 - Know how to test Pyspark DataFrames with local spark sessions.
+
+## Fixtures
+
+Fixtures are the building blocks of Pytest.
+
+> **Warning**: Hello REVIEWER! I'm talking to you! We have 2 different articles to chose for this part:
+>
+> The first link is a cheat sheet. It's a little bit more concise, but because it never actually tests outside functions, they may give students the wrong mindset.
+> The second link is a how-to guide from Pytest's docs. It's a little bit more complete, but it mixes up beginner and advanced topics (we will only ask up to the "Dynamic scope" session which may be too advanced)
+>
+> So would you please chose the one you think is best? Thanks!
+
+* https://www.tutorialspoint.com/pytest/pytest_quick_guide.htm#pytest-conftest.py
+* https://docs.pytest.org/en/latest/how-to/fixtures.html
 
 ## What should you test?
 
@@ -60,3 +79,4 @@ But what if the internal function is critical to the application? If you really 
 These are optional, but hey can be useful if you want to learn more about testing.
 
 - [Code coverage](coverage.md) - What is code coverage and how to use it with `pytest`.
+- [Pytest's `Monkeypatch`](https://docs.pytest.org/en/latest/how-to/monkeypatch.html) - Pytest's version of mock objects is called `Monkeypatch`. They work a little differently and are not as flexible as `unittest`'s mock objects, but they are easier to use. We won't cover them here, but here's a nice - and official - resource on how to use them.
