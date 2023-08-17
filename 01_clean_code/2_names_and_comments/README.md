@@ -4,6 +4,8 @@ Let's continue our journey to write better code. In this module we will focus on
 
 ## Uncle Bob - Clean code lesson 2 (1:06)
 
+![Junior dev writing comments](../../images/junior-devs-writing-comments.png)
+
 [Link to video](https://www.youtube.com/watch?v=2a_ytyt9sf8)
 
 In the second part of the "Coding Better World Together", Uncle Bob focuses on the clean code rules for comments and rules to write names.

@@ -119,7 +119,11 @@ def _is_data_equal(df_actual: SparkDataFrame, df_expected: SparkDataFrame) -> bo
 
 
 def _flatten_df(df: SparkDataFrame) -> SparkDataFrame:
-    """Flatten all nested columns in a SparkDataFrame"""
+    """Flatten all nested columns in a SparkDataFrame
+
+    We need to do this because Spark does not compare nested columns
+    when comparing DataFrames.
+    """
     flat_cols = [F.col(c) for c, t in df.dtypes if t[:6] != "struct"]
     nested_cols = [c[0] for c in df.dtypes if c[1][:6] == "struct"]
 
@@ -137,6 +141,11 @@ def _flatten_df(df: SparkDataFrame) -> SparkDataFrame:
 def _is_schema_equal(
     df1: SparkDataFrame, df2: SparkDataFrame, check_nullable=True
 ) -> bool:
+    """Check if two Spark DataFrames have the same schema
+    
+    This is useful for making the dataframe comparison faster, as we can
+    skip the data comparison if the schemas are different.
+    """
     def field_list(fields):
         return fields.name, fields.dataType, fields.nullable
 
