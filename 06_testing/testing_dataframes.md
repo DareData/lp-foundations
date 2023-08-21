@@ -128,8 +128,6 @@ from pyspark.sql import DataFrame as SparkDataFrame
 from pyspark.sql import functions as F
 from pyspark.sql.types import DoubleType
 
-logger = logging.getLogger(__name__)
-
 
 def assert_sdf_equal(
     df1: SparkDataFrame, df2: SparkDataFrame, check_nullable=True, precision: int = None
@@ -160,7 +158,6 @@ def assert_sdf_equal(
 def _is_data_equal(df_actual: SparkDataFrame, df_expected: SparkDataFrame) -> bool:
     # Handle duplicated rows
     if df_actual.count() != df_expected.count():
-        logger.error("Counts don't match")
         return False
 
     # We sort the columns so that column order does not matter
