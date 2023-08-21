@@ -35,10 +35,9 @@ A couple of warnings about the next video:
 
 [Link to video](https://youtu.be/_OyuFg9pGQg)
 
-## Testing DataFrames (0:10)
+## Testing DataFrames (0h30)
 
 [Link to Testing DataFrames tutorial](testing_dataframes.md)
-
 
 Testing data is a little bit different than testing regular Python code. In this lesson, you will learn how to test Pandas and Pyspark DataFrames.
 
