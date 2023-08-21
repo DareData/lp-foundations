@@ -20,6 +20,19 @@ After this lesson you should know:
 - How to write and run specific tests, including checking for exceptions.
 - Some best practices: Like making sure tests fail for the right reasons, and get introduced to the concept of reducing duplicate code in tests with fixtures.
 
+## What should you test?
+
+Potentially one can test _everything_. However, this is not practical - nor desirable. The goal of testing is to ensure that the code is working as expected. This means that you should test the code that is critical to the application. For example, if you are building a web application, you should test the code that handles the HTTP requests. If you are building a data pipeline, you should test the code that handles the data transformations.
+
+There are 2 things you should always have:
+
+1. You should have an integration test that runs the entire application. This is to ensure that the application is working as expected when all the pieces are put together. This is also called an end-to-end test.
+2. You should have at least one unit test for each _public_ function. This is because public functions are the one that will be imported and used by other applications or modules.
+
+What about the private functions? Those function that start with a `_` or a `__`? You don't really need to test those. The other problem with testing internal functions is that it increases the likelihood of your tests failing for the wrong reasons. For example, when changing something internal, that doesn't break anything but forces you to spend a long time updating all tests.
+
+But what if the internal function is critical to the application? If you really believe a particular internal function should be tested, that's a strong indicator it should be decoupled. Move it to a module of its own and make that function public.
+
 ## More on Mock objects
 
 In the last video you were introduced by the concept of mock objects, where the author replaced a parameter with a mock object. However, that's not something we usually do. This is because we don't have access to the thing we want to mock most of the times.
@@ -48,34 +61,13 @@ After this lesson you should:
 
 ## Fixtures
 
-Fixtures are the building blocks of Pytest.
+Fixtures are the building blocks of Pytest, so it's important to understand how they work. Luckily, they are not that complicated and Pytest has a great "how to" tutorial on them.
 
-> **Warning**: Hello REVIEWER! I'm talking to you! We have 2 different articles to chose for this part:
->
-> The first link is a cheat sheet. It's a little bit more concise, but because it never actually tests outside functions, they may give students the wrong mindset.
-> The second link is a how-to guide from Pytest's docs. It's a little bit more complete, but it mixes up beginner and advanced topics (we will only ask up to the "Dynamic scope" session which may be too advanced)
->
-> So would you please chose the one you think is best? Thanks!
-
-* https://www.tutorialspoint.com/pytest/pytest_quick_guide.htm#pytest-conftest.py
-* https://docs.pytest.org/en/latest/how-to/fixtures.html
-
-## What should you test?
-
-Potentially one can test _everything_. However, this is not practical - nor desirable. The goal of testing is to ensure that the code is working as expected. This means that you should test the code that is critical to the application. For example, if you are building a web application, you should test the code that handles the HTTP requests. If you are building a data pipeline, you should test the code that handles the data transformations.
-
-There are 2 things you should always have:
-
-1. You should have an integration test that runs the entire application. This is to ensure that the application is working as expected when all the pieces are put together. This is also called an end-to-end test.
-2. You should have at least one unit test for each _public_ function. This is because public functions are the one that will be imported and used by other applications or modules.
-
-What about the private functions? Those function that start with a `_` or a `__`? You don't really need to test those. The other problem with testing internal functions is that it increases the likelihood of your tests failing for the wrong reasons. For example, when changing something internal, that doesn't break anything but forces you to spend a long time updating all tests.
-
-But what if the internal function is critical to the application? If you really believe a particular internal function should be tested, that's a strong indicator it should be decoupled. Move it to a module of its own and make that function public.
+Jump to their ["How to use fixtures"](https://docs.pytest.org/en/latest/how-to/fixtures.html) section and read until the "Dynamic scope" session. This should take you about 10 minutes and it covers the most important parts of fixtures. The rest of the page are more advanced use cases. You can skip them.
 
 ## Extra resources
 
 These are optional, but hey can be useful if you want to learn more about testing.
 
 - [Code coverage](coverage.md) - What is code coverage and how to use it with `pytest`.
-- [Pytest's `Monkeypatch`](https://docs.pytest.org/en/latest/how-to/monkeypatch.html) - Pytest's version of mock objects is called `Monkeypatch`. They work a little differently and are not as flexible as `unittest`'s mock objects, but they are easier to use. We won't cover them here, but here's a nice - and official - resource on how to use them.
+- [Pytest's `Monkeypatch`](https://docs.pytest.org/en/latest/how-to/monkeypatch.html) - Pytest's version of mock objects is called `Monkeypatch`. They work a little differently and are not as flexible as `unittest.mock`'s mock objects, but they are easier to use. We won't cover them here, but here's a nice - and official - resource on how to use them.
