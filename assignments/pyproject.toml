@@ -1,19 +1,13 @@
 [project]
-name = "assignments"
-version = "0.0.1"
 readme = "README.md"
 requires-python = ">=3.8"
 description = "First assignment of the Foundations Learning Path"
 authors = [
     {name = "Fernando Cordeiro<fernando@daredata.engineering>"}
 ]
-dependencies = ["pandas"]
 
 [project.optional-dependencies]
-dev = ["pytest", "pylint", "pytest-cov"]
-
-[tool.setuptools]
-packages = ["life_expectancy"]
+dev = ["pytest", "pylint", "pytest-cov", "toml"]
 
 [tool.coverage.run]
 omit = [

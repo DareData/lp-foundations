@@ -14,3 +14,4 @@ In this module, we will cover the following topics:
 
 1. Go through the [Clean Code lesson](./1_clean_code_part_1.md) and get your feet wet.
 2. Read about how to structure your Python projects with [`pyproject.toml`](./pyproject.md).
+3. You should now be ready to set up the project for your assignments. Go to the [Assignments Overview](../../assignments/README.md) to get started on the assignments' repository and then set up the project with the [setup assignment](../../assignments/assignment_0/README.md).
