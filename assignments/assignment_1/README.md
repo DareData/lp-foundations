@@ -1,9 +1,9 @@
 # Assignment 1: EU Life Expectancy
 
 > **Warning**
-> Before starting this assignment, make sure you have read the [project's setup instructions](../README.md) carefully.
+> Before starting this assignment, make sure you have read the [project's setup instructions](../README.md) and have finished the [`pyproject` installation](../assignment_0/README.md).
 
-There are 2 parts to this assignment: cleaning the data and ensuring good code quality. The project is in the `life_expectancy` folder.
+There are 2 parts to this assignment: cleaning the data and ensuring good code quality. Remember to develop the assignments inside the `life_expectancy` folder.
 
 Let's break it down:
 
@@ -13,9 +13,7 @@ assignments
 | ├── data             # Data files are to be kept in this directory
 | └── tests            # Directory for tests. `pytest`, our testing framework, will try to find this folder and run all 
 |                      #   tests inside it.
-├── pyproject.toml     # Meta-information about the project, like the author's name, the version, the dependencies, and 
-|                      #   instructions of how some developer tools are to be run.
-└── README.md          # The top-level README for developers using this project.
+└── pyproject.toml     # Meta-information about the project
 ```
 
 The datafiles are in TSV format in wide format. The first column is a composed one, containing 4 different information (unit, sex, age, geo). The next columns are temporal values, the life expectancy in years.
