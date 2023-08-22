@@ -1,5 +1,7 @@
 # Project Structure
 
+## INCOMING CONTENT
+
 ## Python application layouts (0:15)
 
 ![RealPython cover](../images/ba19cadbefac3e8cbea6ab6829321d377e981efc409395804470873bec7e432a.png)
