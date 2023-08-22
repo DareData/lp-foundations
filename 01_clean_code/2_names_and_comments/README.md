@@ -38,3 +38,7 @@ Nowadays, VSCode usually comes with a type checked installed by default. But the
 Now you should see the errors and warnings in your code in the "Problems" tab (it sits next to your integrated terminal window). Personally, I like to use the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) add-on to make the errors and warnings more visible:
 
 ![Error Lens add-on](../../images/error_lens.png)
+
+## Extra resources
+
+- [Virtual environments](virtual_environments.md) - If you are curious about how virtual environments work, you should definitely see this article from RealPython.
