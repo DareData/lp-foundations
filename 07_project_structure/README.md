@@ -25,16 +25,6 @@ After this lesson you should:
 
 - Have a reference on how to layout projects involving data flows.
 
-## Pasta-based antipatterns (0:10)
-
-[Link to article](https://www.techtarget.com/searchsoftwarequality/tip/Fix-spaghetti-code-and-other-pasta-theory-antipatterns)
-
-This article shows examples of what constitutes unmaintainable code. It not only covers what these antipatterns are, but also how to avoid them.
-
-After this lesson you should:
-
-- Know how architectural antipatterns manifest in code and what their consequences are.
-
 ## Python virtual environments
 
 ![RealPython cover](../images/60883bcc62a85942032903fcb785eeb53eb496091e15bc47f4bb96d93cabd88e.png)
