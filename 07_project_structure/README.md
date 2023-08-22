@@ -1,20 +1,5 @@
 # Project Structure
 
-## Clean code and project structure (1:20)
-
-![Uncle Bob - Clean code lesson 5](../images/673b0098db4c7ed5ebe5c25f3df7360300552d9f1061fdd630097b409c9c900a.png)
-
-[Link to video](https://www.youtube.com/watch?v=sn0aFEMVTpA)
-
-In the 5th lesson from Uncle Bob's Clean Code series, he talks about project structure and the importance of using it to convey the code's intent to the reader.
-
-> **Note**: Unlike the two previous Uncle Bob videos in this learning path, this one isn't as focused. There are some digressions between the 1:20 and 2:00 mark. You can skip that part if you want to.
-
-After this lesson you should:
-
-- Know what is the goal of Software Architecture,
-- Understand the difference between Scope and Shape.
-
 ## Python application layouts (0:15)
 
 ![RealPython cover](../images/ba19cadbefac3e8cbea6ab6829321d377e981efc409395804470873bec7e432a.png)
