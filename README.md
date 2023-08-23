@@ -92,7 +92,7 @@ Week 04 _(~2.5 hours)_
 
 - Assignment #1
 
-Week 05 _(~2.5 hours)_
+Week 05 _(~2.0 hours)_
 
 - Git strategies
 - Assessing code quality: reviews and structures
