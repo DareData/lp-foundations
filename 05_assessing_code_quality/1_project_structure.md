@@ -2,7 +2,7 @@
 
 ## What is software design
 
-The goal of software architecture is to minimize the human resource required to build and maintain software systems. If the effort required to maintain a system grows with time, then the design is bad. If it's constant or shrinks with time, then the design is bad.
+The goal of software architecture is to minimize the human resource required to build and maintain software systems. If the effort required to maintain a system grows with time, then the design is bad. If it's constant or shrinks with time, then the design is good!
 
 The key is to never sacrifice good design for speed, because this creates a mess that will force you to go slow in the long term. Technical debt and a swampy code base are a bane of all bigger software projects.
 
@@ -79,7 +79,11 @@ As an example, consider a function/module/class that compiles and prints a repor
 1. The content of the report could change.
 2. The format of the report could change.
 
-That means that it currently contain two separate responsibilities. Because they are together, if there is a change to the report compilation process, there is a greater danger that the printing code will break. And vice-versa.
+That means that it currently contain two responsibilities. Because they are together, they may share some state or variables - this means the responsibilities are **coupled** by this shared state.
+
+In our puzzle metaphor, two coupled components are like two puzzle pieces with tabs so unique that can only connect with each other,
+
+Imagine this scenario:  you need to change the order of the report section;  but that caused a variable that was also being used to create the content to change therefore breaking how the content was created.
 
 ## References for project structure
 
@@ -103,11 +107,9 @@ After this lesson you should:
 
 This is an useful reference guide for Python application layouts. Although it's not a tutorial, it's a good piece to keep for future reference.
 
-Note that the guide is from 2018, so we still see references of files that are now (in 2022) being replaced by the `pyproject.toml` configuration file (which replaces the `requirements.txt`, `MANIFEST.in` and `setup.py` files)
+Note that the guide is from 2018, so we still see references of files that are now (in 2022) being replaced by the[`pyproject.toml` configuration file](./../01_clean_code/1_long_code_is_not_good_code/2_pyproject.md) (which replaces the `requirements.txt`, `MANIFEST.in` and `setup.py` files)
 
 After this lesson you should:
 
 - How to design command line applications,
 - How to recognize web applications frameworks.
-
-
