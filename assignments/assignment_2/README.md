@@ -48,3 +48,25 @@ The reviewer will only have access to code that's different from the `main` bran
 3. Assign a colleague to review your code.
 4. After the review, merge the pull request.
 5. Finally a pull request from `refactoring` to `main` or simply merge the `refactoring`.
+
+
+# Assignment 2: Project Structure
+
+We know that the things presented in the previous modules are orientative guidelines and real-life scenarios will slightly differ based on the project's specific needs. However, it is not uncommon to unnecessarily deviate too much from these.
+
+## 1- Project restructuration
+
+This exercise is very simple, we just want you to fish out some current or older project that you are or were part of and review its organization. What would you change? What would you keep? Why? 
+
+
+## 2- Structure recognition
+
+In collecting a couple of examples for the project structure module we made a mess and lost track of the structure each of the projects. Give it a go and see if you can figure out which patterns do these projects follow.
+
+[Link to mysterious project 1](https://github.com/qiuyu96/CoDeF/tree/main)
+
+[Link to mysterious project 2](https://github.com/RoberVega/mysterious_project_2)
+
+[Link to mysterious project 3](https://github.com/RoberVega/mysterious_project_3)
+
+[Link to mysterious project 4](https://github.com/cookiecutter/cookiecutter/tree/main)

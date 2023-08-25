@@ -9,7 +9,7 @@ Our goal here is to equip you with the skills to critically evaluate other peopl
 1. Read about [Project Structure](./1_project_structure.md) and learn how to organize your codebase. A well-organized codebase makes understanding and reviewing code a breeze.
 2. These practical [Code Review Guidelines](./2_code_reviews.md) will help you give feedback in a code review.
 3. Read about some of the [Code Smells](./3_code_smells.md) to be aware of during code reviews. That will help you sniff out bad practices and improve code quality.
-4. For the next weekly session, you will be asked to review the structure of an existing project. Choose a project from your team and review its organization. What would you change? What would you keep? Why?
+
 
 ## Assignment #2
 
