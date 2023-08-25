@@ -168,7 +168,13 @@ def _is_data_equal(df_actual: SparkDataFrame, df_expected: SparkDataFrame) -> bo
     df_actual_flat = _flatten_df(df_actual)
     df_expected_flat = _flatten_df(df_expected)
 
-    except_all = df_actual_flat.exceptAll(df_expected_flat)
+    try:
+        except_all = df_actual_flat.exceptAll(df_expected_flat)
+    except AttributeError:
+        # In spark 2.3 and below, we can't use exceptAll, so we use an anti-join
+        except_all = df_actual_flat.join(
+            df_expected_flat, on=df_actual_flat.columns, how="leftanti"
+        )
     return except_all.count() == 0
 
 
