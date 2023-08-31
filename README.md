@@ -104,23 +104,23 @@ Week 06 _(~2.5 hours)_
 Week 07 _(~2 hours)_
 
 - Testing
-- Text editors
 
 Week 08 _(~2 hours)_
 
 - Assignment #3
 
 Week 09 _(~2.5 hours)_
-
+- Text editors
 - Object-oriented programming
 
 Week 10 _(~2.5 hours)_
 
-- Design patterns
+- Assignment #4
 
 Week 11 _(~2 hours)_
 
-- Assignment #4
+- Design patterns
+- Assignment #5
 
 ## Assignments
 
