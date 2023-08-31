@@ -71,3 +71,20 @@ These are optional, but they can be useful if you want to learn more about testi
 
 - [Code coverage](coverage.md) - What is code coverage and how to use it with `pytest`.
 - [Pytest's `Monkeypatch`](https://docs.pytest.org/en/latest/how-to/monkeypatch.html) - Pytest's version of mock objects is called `Monkeypatch`. They work a little differently and are not as flexible as `unittest.mock`'s mock objects, but they are easier to use. We won't cover them here, but here's a nice - and official - resource on how to use them.
+
+
+## Assignment #3
+
+It's finally time for Assignment #3!
+
+> **Note**: This assignment will require your code to be reviewed by your peers.
+
+This assignment is about creating tests. It's not the more joyful of tasks - particularly for existing code - but it's oh so important.
+
+### Assignment #3 covers
+
+- Creating tests
+- Creating test fixtures
+- Mocking methods and objects
+
+`cd` into the `assignments` folder, good luck and see you on the other side!

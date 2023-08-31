@@ -75,3 +75,16 @@ Protocols are similar to abstract data classes. So when should you use a protoco
 After this lesson you should:
 
 - Know what Protocol classes are and when to use them.
+
+
+## Assignment #4
+
+This assignment is about OOP and VSCode shortcuts, make sure you have those in mind!
+
+### Assignment #4 covers
+
+- Enums
+- Object composition
+- Testing objects
+
+`cd` into the `assignments` folder, and let's go!
