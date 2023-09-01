@@ -87,4 +87,4 @@ This assignment is about creating tests. It's not the more joyful of tasks - par
 - Creating test fixtures
 - Mocking methods and objects
 
-`cd` into the `assignments` folder, good luck and see you on the other side!
+Open the `assignments` project, good luck and see you on the other side!
