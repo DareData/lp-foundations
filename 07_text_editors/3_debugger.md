@@ -1,4 +1,4 @@
-# The VSCode Debugger (0h24)
+# The VSCode Debugger (0h30)
 
 ## How to use the debugger (0h17)
 
