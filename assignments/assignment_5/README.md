@@ -10,8 +10,6 @@ The focus of this (final) assignment is about design patterns. And we have bad n
 2. Refactor your code so that it can accept data in other formats if necessary. You can use the [Strategy pattern](https://refactoring.guru/design-patterns/strategy) for this, but you can also use a different one if you prefer.
 3. Ensure you still have complete test coverage and a high `pylint` score.
 
-
-
 ## 2- Code Review
 
 As with the previous assignment, a peer should review your code and you will be reviewing the code of a fellow colleague.

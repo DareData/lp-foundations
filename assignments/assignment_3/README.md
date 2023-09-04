@@ -13,50 +13,56 @@ In order to make your life easier during this assignment, we want to give you a 
 ## 1- Fixtures
 
 0. If you recall the structure from [assignment_0](../assignment_0/README.md), we currently have two fixtures, one for the expected output of the portuguese life expectancy dataframe and another one for the expected european life expectancy dataframe (what is, without the PT filter).
-1. Following best practises, we want to create a fixture that represents our data. The idea of using fixtures instead of collecting data from a database will ensure our code is not dependent on connectivity. This will make our lives easier when we want to run our tests in a CI/CD pipeline. Start from the current data in `life_expectancy\data\eu_life_expectancy_raw.tsv` and create a sample fixture `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv` for the tests to consume---see substeps below. 
-> Note: the only reason why you can safely create this fixture is because you previously had a passing test, so before using your functions to create the fixture, you already knew that your functions were doing what they were supposed to. In a real-world scenario without previous tests, you would have first to manually make sure that your procedures and functions are correct, otherwise you would create lying fixtures!!
+1. Following best practises, we want to create a fixture that represents our data. The idea of using fixtures instead of collecting data from a database will ensure our code is not dependent on connectivity. This will make our lives easier when we want to run our tests in a CI/CD pipeline. Start from the current data in `life_expectancy\data\eu_life_expectancy_raw.tsv` and create a sample fixture `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv` for the tests to consume---see substeps below.
 
-Since we only want to test our functions, this fixture does not need to be a copy of the original, but could rather be a smaller sample, so that our tests run faster:
+   > Note: the only reason why you can safely create this fixture is because you previously had a passing test, so before using your functions to create the fixture, you already knew that your functions were doing what they were supposed to. In a real-world scenario without previous tests, you would have first to manually make sure that your procedures and functions are correct, otherwise you would create lying fixtures!!
+
+   Since we only want to test our functions, this fixture does not need to be a copy of the original, but could rather be a smaller sample, so that our tests run faster:
+
    * Starting from `life_expectancy\data\eu_life_expectancy_raw.tsv` create a sample fixture `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv`
    * Since you have changed `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv` to be a sample, now your expected output _should_ be the corresponding image of this sample! Therefore, use your current functions to generate the corresponding `life_expectancy\tests\fixtures\eu_life_expectancy_expected.csv` file.
+
 2. Now that we have _our_ sample, we need a fixture of the expected output associated to it. You can use your existing `life_expectancy` module to generate a `pt_life_expectancy_expected.csv` file that will replace the current file at `life_expectancy\tests\fixtures\pt_life_expectancy_expected.csv`. Finally, include the necessary code to import this new fixture in the `conftest.py` file.
 3. Modify your `main` function so that the cleaned DataFrame is always returned. That will allow you to compare it with the expected fixture.
 4. Modify the current test in `test_cleaning.py` to consume these two fixtures instead of the actual data.
-> Don't forget to pass the new fixture an argument of the test functions!  
+
+   > Don't forget to pass the new fixture an argument of the test functions!  
+
 5. Final touch: if you read the docstring of the `run_before_and_after_tests` function in the `life_expectancy\tests\conftest.py` file, you will see that by now, the function will be doing nothing... and, if it does nothing, it's dead code and dead code must be removed :smiling_imp:!
 
 ## 2- Unit tests and Mocks
 
-0. Right now you should have more python modules. If not, ensure you have at least 2: one for data cleaning and one for loading/saving data. 
-```bash
-.
-├── LICENSE.md
-├── README.md
-├── life_expectancy  # This directory contains the package you'll be creating
-│   ├── __init__.py  # This file is required for Python to recognize this directory as a module
-│   ├── data         # Data files are to be kept in this directory
-│   │   └── eu_life_expectancy_raw.tsv
-│   │── tests        # Directory for tests.
-│   │   ├── __init__.py
-│   │   ├── conftest.py  # `conftest.py` is a special pytest file. It contains fixtures and plugins.
-│   │   ├── fixtures     # Fixtures are reusable objects that can be used in tests.
-│   │   │   └── <the-fixtures-you-created>
-│   │   ├── test_cleaning.py  # Tests for the cleaning module (assignment 1)
-│   │   └── test_pyproject.py  # Tests for the pyproject installation (this assignment)
-|   ├── module_1.py  # Your modules
-|   ├── module_2.py  
-|   ├── ...
-|   └── module_n.py
-|
-└── pyproject.toml
-```
+0. Right now you should have more python modules. If not, ensure you have at least 2: one for data cleaning and one for loading/saving data.
+
+   ```bash
+   .
+   ├── LICENSE.md
+   ├── README.md
+   ├── life_expectancy  # This directory contains the package you'll be creating
+   │   ├── __init__.py  # This file is required for Python to recognize this directory as a module
+   │   ├── data         # Data files are to be kept in this directory
+   │   │   └── eu_life_expectancy_raw.tsv
+   │   │── tests        # Directory for tests.
+   │   │   ├── __init__.py
+   │   │   ├── conftest.py  # `conftest.py` is a special pytest file. It contains fixtures and plugins.
+   │   │   ├── fixtures     # Fixtures are reusable objects that can be used in tests.
+   │   │   │   └── <the-fixtures-you-created>
+   │   │   ├── test_cleaning.py  # Tests for the cleaning module (assignment 1)
+   │   │   └── test_pyproject.py  # Tests for the pyproject installation (this assignment)
+   |   ├── module_1.py  # Your modules
+   |   ├── module_2.py  
+   |   ├── ...
+   |   └── module_n.py
+   |
+   └── pyproject.toml
+   ```
+
 1. We also have a single integration test, but we should have one unit tests for each of the non-private functions[^1] we have. So, for example, if you have 3 public functions, you should have 3 unit tests.
    1. On the units above, ensure that any test to functions that save data uses a mock
    2. You can do this by patching the `pd.DataFrame.to_csv` method to make the tests not write to a file. Instead, it should just print out a message.
    3. Then, assert that the `pd.DataFrame.to_csv` method is being called. As a bonus, by setting up your tests in this fashion, we can ensure no data transformations modifies any actual data.
 
 [^1]: Yes, you can also test internal functions if you want to (specially for training purposes). But in the real world, remember that you really believe a particular internal function should be tested, that's a strong indicator it should be decoupled and placed inside its own module - thus making it public.
-
 
 ## 4- Code Review
 
