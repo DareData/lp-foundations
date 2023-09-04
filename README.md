@@ -110,11 +110,12 @@ Week 08 _(~2 hours)_
 - Assignment #3
 
 Week 09 _(~2.5 hours)_
-- Text editors
+
 - Object-oriented programming
 
-Week 10 _(~2.5 hours)_
+Week 10 _(~3.5 hours)_
 
+- Text editors
 - Assignment #4
 
 Week 11 _(~2 hours)_

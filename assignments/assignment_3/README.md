@@ -13,11 +13,17 @@ In order to make your life easier during this assignment, we want to give you a 
 ## 1- Fixtures
 
 0. If you recall the structure from [assignment_0](../assignment_0/README.md), we currently have two fixtures, one for the expected output of the portuguese life expectancy dataframe and another one for the expected european life expectancy dataframe (what is, without the PT filter).
-1. Following best practises, we want to create a fixture that represents our data. The idea of using fixtures instead of collecting data from a database will ensure our code is not dependent on connectivity. This will make our lives easier when we want to run our tests in a CI/CD pipeline. Start from the current data in `life_expectancy\data\eu_life_expectancy_raw.tsv` and create a fixture `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv` for the tests to consume. Since we only want to test our functions, this fixture does not need to be a copy of the original, but could rather be a smaller sample, so that our tests run faster.
+1. Following best practises, we want to create a fixture that represents our data. The idea of using fixtures instead of collecting data from a database will ensure our code is not dependent on connectivity. This will make our lives easier when we want to run our tests in a CI/CD pipeline. Start from the current data in `life_expectancy\data\eu_life_expectancy_raw.tsv` and create a sample fixture `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv` for the tests to consume---see substeps below. 
+> Note: the only reason why you can safely create this fixture is because you previously had a passing test, so before using your functions to create the fixture, you already knew that your functions were doing what they were supposed to. In a real-world scenario without previous tests, you would have first to manually make sure that your procedures and functions are correct, otherwise you would create lying fixtures!!
+
+Since we only want to test our functions, this fixture does not need to be a copy of the original, but could rather be a smaller sample, so that our tests run faster:
+   * Starting from `life_expectancy\data\eu_life_expectancy_raw.tsv` create a sample fixture `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv`
+   * Since you have changed `life_expectancy\tests\fixtures\eu_life_expectancy_raw.tsv` to be a sample, now your expected output _should_ be the corresponding image of this sample! Therefore, use your current functions to generate the corresponding `life_expectancy\tests\fixtures\eu_life_expectancy_expected.csv` file.
 2. Now that we have _our_ sample, we need a fixture of the expected output associated to it. You can use your existing `life_expectancy` module to generate a `pt_life_expectancy_expected.csv` file that will replace the current file at `life_expectancy\tests\fixtures\pt_life_expectancy_expected.csv`. Finally, include the necessary code to import this new fixture in the `conftest.py` file.
 3. Modify your `main` function so that the cleaned DataFrame is always returned. That will allow you to compare it with the expected fixture.
 4. Modify the current test in `test_cleaning.py` to consume these two fixtures instead of the actual data.
 > Don't forget to pass the new fixture an argument of the test functions!  
+5. Final touch: if you read the docstring of the `run_before_and_after_tests` function in the `life_expectancy\tests\conftest.py` file, you will see that by now, the function will be doing nothing... and, if it does nothing, it's dead code and dead code must be removed :smiling_imp:!
 
 ## 2- Unit tests and Mocks
 
@@ -37,13 +43,10 @@ In order to make your life easier during this assignment, we want to give you a 
 │   │   │   └── <the-fixtures-you-created>
 │   │   ├── test_cleaning.py  # Tests for the cleaning module (assignment 1)
 │   │   └── test_pyproject.py  # Tests for the pyproject installation (this assignment)
-|   ├── cleaning
-|   |   ├── __init__.py
-|   |   ├── cleaning.py
-|   ├── load_save_data
-|   |   ├── __init__.py
-|   |   ├── load_data.py
-|   |   ├── save_data.py  
+|   ├── module_1.py  # Your modules
+|   ├── module_2.py  
+|   ├── ...
+|   └── module_n.py
 |
 └── pyproject.toml
 ```
