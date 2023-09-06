@@ -43,7 +43,7 @@ Defines the default rule set for type checking. Options are:
 "editor.formatOnSave": true
 ```
 
-Formats files when they are saved. A formatter must be available.
+Formats files when they are saved. This allows your code to follow a consistent style automatically. In order to to this, you will need a formatter, like [black](https://github.com/psf/black). There's usually a different formatter for each code style. If you need more information about code styles, it's useful to read a few examples. For example, [Google's Python styleguide](https://google.github.io/styleguide/pyguide.html) is publicly available.
 
 ```json
 "editor.formatOnSaveMode": "file"
