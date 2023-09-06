@@ -18,7 +18,7 @@ This video shows you how to use some of the more advanced features of the VS Cod
 
 ## Adding additional configurations (0h05)
 
-The videos above all run the debugger on specific files. However, what if the thing you want to debug is a function in a file that is imported by another file? Of if you want to debug the testing suite? In these cases, you will need to add additional configurations.
+The videos above all run the debugger on specific files. However, what if the thing you want to debug is a function in a file that is imported by another file? Or if you want to debug the testing suite? In these cases, you will need to add additional configurations.
 
 By clicking on the debug icon on the left, you will open the debug panel. At the top of the panel, you will see a dropdown menu that says `Python File`. Click on it and select `Add Configuration...`. This will open a `launch.json` file. This file contains all the configurations for the debugger. You can add new configurations by adding new objects to the `configurations` array. Here is an example of a configuration that runs the debugger on a specific file `my_file.py`:
 
