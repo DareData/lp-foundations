@@ -43,7 +43,13 @@ Defines the default rule set for type checking. Options are:
 "editor.formatOnSave": true
 ```
 
-Formats files when they are saved. This allows your code to follow a consistent style automatically. In order to to this, you will need a formatter, like [black](https://github.com/psf/black). There's usually a different formatter for each code style. If you need more information about code styles, it's useful to read a few examples. For example, [Google's Python styleguide](https://google.github.io/styleguide/pyguide.html) is publicly available.
+Formats files when they are saved. This allows your code to follow a consistent style automatically. In order to to this, you will need a formatter, like [black](https://github.com/psf/black). There's usually a different formatter for each code style. If you need more information about code styles, it's useful to read a few examples. For example, [Google's Python styleguide](https://google.github.io/styleguide/pyguide.html) is publicly available. The next setting will allow you to choose a formatter.
+
+```json
+"python.formatting.provided": "black",
+```
+
+Option to determine how VSCode should format your code. Possible formatters are `Black`, `Autopep8`, and `Yapf`.
 
 ```json
 "editor.formatOnSaveMode": "file"
@@ -67,12 +73,6 @@ VSCode allows for other actions to be performed when the file is saved. Each act
 ```
 
 `python.linting` is where the linting options live. The Python extension supports `Pylint`, `bandit`, `pylama`, `Pydocstyle`, `Pycodestyle`, `Prospector`, `Mypy`, and `Flake8`.
-
-```json
-"python.formatting.provided": "black",
-```
-
-Option to determine how VSCode should format your code. Possible formatters are `Black`, `Autopep8`, and `Yapf`.
 
 ## Recommended plugins, Tasks and the Test Explorer
 
