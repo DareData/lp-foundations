@@ -9,3 +9,15 @@ Git is very flexible and can be tailored to many types of projects and teams. Th
 After this lesson you should:
 
 - Know four strategies for working with Git with your team in a more seamless fashion.
+
+## Pre-commit (0:06)
+
+![Pre-commit cover](../images/pre-commit-cover.png)
+
+[Link to video](https://www.youtube.com/watch?v=psjz6rwzMdk)
+
+Now you finished the previous assignment, this situation should sound familiar to you: you've added new code, committed it, and pushed it to GitHub. You're ready to open a pull request, but you forgot to run the linter beforehand the CI threw an error. What if you could catch those errors before you even commit your code? That's what pre-commit is for!
+
+Pre-commit uses a git feature named **git hooks** to automatically format your code, run a linter, type check, check config files, etc. In this lesson, you will learn how to install pre-commit and how to configure it to run a linter before you commit your code.
+
+Most linters have instructions on how to integrate them with `pre-commit`. For example, here are the instructions for [pylint](https://pylint.pycqa.org/en/latest/user_guide/installation/pre-commit-integration.html).
