@@ -59,7 +59,7 @@ We know that the things presented in the previous modules are orientative guidel
 This exercise is very simple, we just want you to fish out some current or older project that you are or were part of and review its organization. What would you change? What would you keep? Why? 
 
 
-## 2- Structure recognition
+## 2- Structure analysis
 
 In collecting a couple of examples for the project structure module we made a mess and lost track of the structure each of the projects. Give it a go and see if you can figure out which patterns do these projects follow.
 
@@ -70,3 +70,10 @@ In collecting a couple of examples for the project structure module we made a me
 [Link to mysterious project 3](https://github.com/RoberVega/mysterious_project_3)
 
 [Link to mysterious project 4](https://github.com/cookiecutter/cookiecutter/tree/main)
+
+
+# Assignment 2: code exploration using a debugger
+
+The last part of this assignment is easy, but very important. One of the most common scenarios is to stumble upon code you have not written yourself. Especially when facing big projects, this might come across as a daunting task. Fortunately, debuggers come to the rescue! One of the possible use cases for debuggers is understanding a new piece of code, especially for studying its intricacies and connections. By introducing strategic breakpoints, one can understand the intended flow of the project and the different parts it is composed of.
+
+That situation takes us to our next exercise: in the next module, we will focus on testing. But first, we would like you to use a debugger to try to understand how the current testing code actually works, what is being called, etc.
