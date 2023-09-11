@@ -16,7 +16,7 @@ After this lesson you should:
 
 Now you finished the previous assignment, this situation should sound familiar to you: you've added new code, committed it, and pushed it to GitHub. You're ready to open a pull request, but you forgot to run the linter beforehand the CI threw an error. What if you could catch those errors before you even commit your code? That's what pre-commit is for!
 
-Pre-commit uses a git feature named **git hooks** to automatically format your code, run a linter, type check, check config files, etc. In this lesson, you will learn how to install pre-commit and how to configure it to run a linter before you commit your code.
+Now that you have finished the previous assignment, here's a situation that could sound familiar to you: you've added new code, committed it, and pushed it to GitHub. You're ready to open a pull request, but you forgot to run the linter beforehand the CI threw an error. What if you could catch those errors before you even commit your code? That's what pre-commit is for!
 
 [Link to lesson](https://www.youtube.com/watch?v=psjz6rwzMdk)
 
