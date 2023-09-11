@@ -36,10 +36,10 @@ Helps VSCode identify the Python testing framework being used: pytest vs. unitte
 ---
 
 ```json
-"python.analysis.typeCheckingMode": strict
+"python.analysis.typeCheckingMode": strict OR basic OR off
 ```
 
-Defines the default rule set for type checking. Options are:
+Defines the default rule set for type checking. If you turn type checking on VSCode will automatically try to detect any type errors and output them to the `Problems` tab of your Integrated Terminal. The available options are:
 
 - `off` - no type checking,
 - `basic` - More lenient checker. Useful for when working with some external libraries (like Pandas, for instance),
@@ -59,7 +59,7 @@ Formats files when they are saved. This allows your code to follow a consistent 
 "python.formatting.provided": "black",
 ```
 
-Option to determine how VSCode should format your code. Possible formatters are `Black`, `Autopep8`, and `Yapf`.
+Option to determine how VSCode should format your code  if you have `formatOnSave` set to `true` or select `Format Code` on the mouse menu. Possible formatters are `Black`, `Autopep8`, and `Yapf`.
 
 ---
 
@@ -88,7 +88,7 @@ VSCode allows for other actions to be performed when the file is saved. Each act
 "python.linting.enabled": true,
 ```
 
-`python.linting` is where the linting options live. The Python extension supports `Pylint`, `bandit`, `pylama`, `Pydocstyle`, `Pycodestyle`, `Prospector`, `Mypy`, and `Flake8`.
+`python.linting` is where the linting options live. The Python extension supports `Pylint`, `bandit`, `pylama`, `Pydocstyle`, `Pycodestyle`, `Prospector`, `Mypy`, and `Flake8`. Same as with type checking, VSCode will automatically try to detect any linting errors and print them to the `Problems` tab of your Integrated Terminal.
 
 ## Recommended plugins, Tasks and the Test Explorer
 
