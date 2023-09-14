@@ -48,3 +48,29 @@ The reviewer will only have access to code that's different from the `main` bran
 3. Assign a colleague to review your code.
 4. After the review, merge the pull request.
 5. Finally a pull request from `refactoring` to `main` or simply merge the `refactoring`.
+
+
+# Assignment 2: Project Structure
+
+We know that the things presented in the previous modules are orientative guidelines and real-life scenarios will slightly differ based on the project's specific needs. However, it is not uncommon to unnecessarily deviate too much from these.
+
+## 1- Project restructuration
+
+This exercise is very simple, we just want you to fish out some current or older project that you are or were part of and review its organization. What would you change? What would you keep? Why? 
+
+
+## 2- Structure analysis
+
+Let's practice your ability to navigate projects you have not written yourself. 
+- How would you go about understanding the different components of a project for the first time? 
+- What if you are looking for a specific feature, class, function, _etc._? How would you proceed then?
+
+Enough chitchat, let us get our hands dirty! Your mission is to understand the structure of two of the most popular python libraries and a bonus repository with a scientific project:
+- [requests](https://github.com/psf/requests/tree/main),
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn/tree/main),
+- [CoDeF](https://github.com/qiuyu96/CoDeF/tree/main). 
+
+By understanding we mean a very simple task: prepare a brief general description of the purpose of the library _just by looking at its folder structure_:
+
+1. Can you identify the main folders? Without looking at the code (you can only look inside other folders) what is their purpose?
+2.  Where is the main script of the package located? 
