@@ -72,7 +72,7 @@ With the (Abstract) Factory pattern, you can separate creation from usage. It al
 
 ---
 
-## Assignment #4
+## Assignment #5
 
 It's the final assignment! Are you ready? If so, chaaaarge! ╰（‵□′）╯
 
@@ -80,12 +80,9 @@ It's the final assignment! Are you ready? If so, chaaaarge! ╰（‵□′）�
 
 This assignment is about using design patterns to improve your code maintainability.
 
-### Assignment #4 covers
+### Assignment #5 covers
 
-- Enums
 - Design patterns
-- Object composition
-- Testing objects
 
 `cd` into the `assignments` folder, and let's go!
 

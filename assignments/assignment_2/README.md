@@ -59,14 +59,18 @@ We know that the things presented in the previous modules are orientative guidel
 This exercise is very simple, we just want you to fish out some current or older project that you are or were part of and review its organization. What would you change? What would you keep? Why? 
 
 
-## 2- Structure recognition
+## 2- Structure analysis
 
-In collecting a couple of examples for the project structure module we made a mess and lost track of the structure each of the projects. Give it a go and see if you can figure out which patterns do these projects follow.
+Let's practice your ability to navigate projects you have not written yourself. 
+- How would you go about understanding the different components of a project for the first time? 
+- What if you are looking for a specific feature, class, function, _etc._? How would you proceed then?
 
-[Link to mysterious project 1](https://github.com/qiuyu96/CoDeF/tree/main)
+Enough chitchat, let us get our hands dirty! Your mission is to understand the structure of two of the most popular python libraries and a bonus repository with a scientific project:
+- [requests](https://github.com/psf/requests/tree/main),
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn/tree/main),
+- [CoDeF](https://github.com/qiuyu96/CoDeF/tree/main). 
 
-[Link to mysterious project 2](https://github.com/RoberVega/mysterious_project_2)
+By understanding we mean a very simple task: prepare a brief general description of the purpose of the library _just by looking at its folder structure_:
 
-[Link to mysterious project 3](https://github.com/RoberVega/mysterious_project_3)
-
-[Link to mysterious project 4](https://github.com/cookiecutter/cookiecutter/tree/main)
+1. Can you identify the main folders? Without looking at the code (you can only look inside other folders) what is their purpose?
+2.  Where is the main script of the package located? 
