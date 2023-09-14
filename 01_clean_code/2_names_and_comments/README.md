@@ -16,7 +16,7 @@ After this lesson you should:
 - Know about _lying comments_ and when _not_ to write comments,
 - Be able to reveal your intent while naming things.
 
-## Python Type Checking (Guide) (1:40)
+## Python Type Checking (Guide) (1:00)
 
 ![RealPython cover](../../images/4b3cc00ea7b463fb46c2dfbe07beab3d6e708384e6938b82cc3e4f65767da9e2.png)  
 
