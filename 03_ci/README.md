@@ -19,4 +19,4 @@ Now that you have learned how clean code is, how to refactor your code, how to l
 - Adding command-line options
 - Creating a CI pipeline
 
-`cd` into the `assignments` folder and good luck! 👍
+Open your assignments project and good luck! 👍

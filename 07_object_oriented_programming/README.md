@@ -86,5 +86,5 @@ This assignment is about OOP and VSCode shortcuts, make sure you have those in m
 - Object composition
 - Testing objects
 
-`cd` into the `assignments` folder, and let's go!
+Open your assignments project, and let's go!
 
