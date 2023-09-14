@@ -74,12 +74,13 @@ In order to make the best use out of this learning path, you should know:
 
 > **Note**: This is just a suggestion. Groups are encouraged to set their own deadlines with their mentors.
 
-Week 01 _(~3 hours)_
+Week 01 _(~3.0 hours)_
 
 - Clean code part 1: Long code is not good code
 - Setting up your assignment repository
+- Assignment #0
 
-Week 02 _(~3 hours)_
+Week 02 _(~3.0 hours)_
 
 - Clean code part 2: Names and Comments
 
@@ -92,7 +93,7 @@ Week 04 _(~2.5 hours)_
 
 - Assignment #1
 
-Week 05 _(~2 hours)_
+Week 05 _(~2.0 hours)_
 
 - Git strategies
 - Assessing code quality: reviews and structures
@@ -101,11 +102,11 @@ Week 06 _(~2.5 hours)_
 
 - Assignment #2
 
-Week 07 _(~2 hours)_
+Week 07 _(~2.0 hours)_
 
 - Testing
 
-Week 08 _(~2 hours)_
+Week 08 _(~2.0 hours)_
 
 - Assignment #3
 
@@ -118,7 +119,7 @@ Week 10 _(~3.5 hours)_
 - Text editors
 - Assignment #4
 
-Week 11 _(~2 hours)_
+Week 11 _(~2.0 hours)_
 
 - Design patterns
 - Assignment #5
