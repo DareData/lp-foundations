@@ -2,15 +2,15 @@
 
 Assignment 3 is about testing.
 
-We currently have a single integration test and this test was very dangerous: before you refactored the clean_data() function, it would overwrite any files created by the application - including ones resulting from its normal usage. Ideally, we would either not have our tests change actual data and not depend on connectivity in order to work, or have a database made specifically for testing. Therefore, let us solve this issue in this exercise.
+We currently have a single integration test. But it was a very dangerous test: before you refactored the clean_data() function, it would overwrite any files created by the application - including ones resulting from its normal usage. Ideally, we would either not have our tests change actual data and not depend on connectivity in order to work, or have a database made specifically for testing. Let us solve this issue in this exercise.
 
 > Don't forget to create a branch for this assignment.
 
-## 0- VSCode Test Discovery
+## 1- VSCode Test Discovery
 
 In order to make your life easier during this assignment, we want to give you a little tip. If you're on VSCode, you can use the [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter) extension to run your tests. It will automatically discover your tests and you can run them from the Test Explorer tab. At this point, if you have refactored your functions as requested in [assignment_2](../assignment_2/README.md) your tests should be failing.
 
-## 1- Fixtures
+## 2- Fixtures
 
 0. If you recall the structure from [assignment_0](../assignment_0/README.md), we currently have two fixtures, one for the expected output of the portuguese life expectancy dataframe and another one for the expected european life expectancy dataframe (what is, without the PT filter).
 1. We want to create a fixture that represents our input data. The idea of using fixtures instead of collecting data from a database will ensure our code is not dependent on connectivity. This will make our lives easier when we want to run our tests in a CI/CD pipeline. Here's how to create them:
@@ -28,7 +28,7 @@ In order to make your life easier during this assignment, we want to give you a 
 
 [^1]: The only reason why you can safely create this fixture is because we had that passing test on the 1st assignment. That's how you knew whether your code was doing what they it supposed to. In a real-world scenario without previous tests, you would first have to manually make sure that your procedures and functions are correct, otherwise you would create lying fixtures (i.e. fixtures that assume your code is correct when, in fact, it is not)!
 
-## 2- Unit tests and Mocks
+## 3- Unit tests and Mocks
 
 0. Right now you should have more python modules. If not, ensure you have at least 2: one for data cleaning and one for loading/saving data [^2].
 
