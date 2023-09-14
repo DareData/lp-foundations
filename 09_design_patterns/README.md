@@ -84,7 +84,7 @@ This assignment is about using design patterns to improve your code maintainabil
 
 - Design patterns
 
-`cd` into the `assignments` folder, and let's go!
+Open your assignments project, and let's go!
 
 I would wish you good luck, but at this point I know you don't need it. You've got this! And don't forget: the biggest lesson is all this is to always treasure the lovely memories we all made together! (✿◠‿◠)
 
