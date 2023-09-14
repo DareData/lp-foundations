@@ -14,15 +14,15 @@ They can be divided into:
 
 Creational design patterns are design patterns that deal with object creation mechanisms. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns try solve this.
 
-In  this module, the creational patterns we are going to cover is the [`Factory` pattern](#factory-pattern).
+In  this module, the creational patterns we are going to cover is the [`Factory` pattern](#factory-pattern-015).
 
 ## Structural patterns
 
-Structural patterns are design patterns that ease the design by identifying a simple way to manage relationships between entities. In this module, the structural patterns we are going to cover is the [`Adapter` pattern](#adapter-pattern).
+Structural patterns are design patterns that ease the design by identifying a simple way to manage relationships between entities. In this module, the structural patterns we are going to cover is the [`Adapter` pattern](#adapter-pattern-023).
 
 ## Behavioral patterns
 
-Behavioral patterns are design patterns that handle common communication patterns between objects. By doing so, these patterns increase flexibility in carrying out this communication. In this module, the behavioral patterns we are going to cover is the [`Strategy` pattern](#strategy-pattern) and the [`Command` pattern](#command-pattern).
+Behavioral patterns are design patterns that handle common communication patterns between objects. By doing so, these patterns increase flexibility in carrying out this communication. In this module, the behavioral patterns we are going to cover is the [`Strategy` pattern](#strategy-pattern-027) and the [`Command` pattern](#command-pattern-032).
 
 ## Inheritance and Composition (0:45)
 
