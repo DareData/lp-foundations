@@ -10,6 +10,7 @@ Our goal here is to equip you with the skills to critically evaluate other peopl
 2. These practical [Code Review Guidelines](./2_code_reviews.md) will help you give feedback in a code review.
 3. Read about some of the [Code Smells](./3_code_smells.md) to be aware of during code reviews. That will help you sniff out bad practices and improve code quality.
 
+---
 
 ## Assignment #2
 

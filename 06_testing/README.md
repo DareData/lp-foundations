@@ -1,6 +1,6 @@
 # Testing
 
-## Introduction to Unit Testing with PyTest
+## Introduction to Unit Testing with PyTest (0h35)
 
 ![Unit Testing with PyTest](./../images/unit-test-with-pytest-cover.png)
 
@@ -71,6 +71,8 @@ These are optional, but they can be useful if you want to learn more about testi
 
 - [Code coverage](coverage.md) - What is code coverage and how to use it with `pytest`.
 - [Pytest's `Monkeypatch`](https://docs.pytest.org/en/latest/how-to/monkeypatch.html) - Pytest's version of mock objects is called `Monkeypatch`. They work a little differently and are not as flexible as `unittest.mock`'s mock objects, but they are easier to use. We won't cover them here, but here's a nice - and official - resource on how to use them.
+
+---
 
 ## Assignment #3
 
