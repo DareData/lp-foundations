@@ -49,28 +49,27 @@ The reviewer will only have access to code that's different from the `main` bran
 4. After the review, merge the pull request.
 5. Finally a pull request from `refactoring` to `main` or simply merge the `refactoring`.
 
+## 3- Project Structure
 
-# Assignment 2: Project Structure
+In the final part of the assignment, let's move to some real-world code.
 
-We know that the things presented in the previous modules are orientative guidelines and real-life scenarios will slightly differ based on the project's specific needs. However, it is not uncommon to unnecessarily deviate too much from these.
+### 1- Project restructuration
 
-## 1- Project restructuration
+Let's discuss projects from your work. Select a current or older project that took part in. Let's review its organization:
 
-This exercise is very simple, we just want you to fish out some current or older project that you are or were part of and review its organization. What would you change? What would you keep? Why? 
+1. What would you change? Why?
+2. What would you keep? Why?
 
+### 2- Third-party code
 
-## 2- Structure analysis
+Let's practice your ability to navigate projects you have not written yourself. We selected 3 examples, but feel free to pick your own:
 
-Let's practice your ability to navigate projects you have not written yourself. 
-- How would you go about understanding the different components of a project for the first time? 
-- What if you are looking for a specific feature, class, function, _etc._? How would you proceed then?
-
-Enough chitchat, let us get our hands dirty! Your mission is to understand the structure of two of the most popular python libraries and a bonus repository with a scientific project:
 - [requests](https://github.com/psf/requests/tree/main),
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn/tree/main),
-- [CoDeF](https://github.com/qiuyu96/CoDeF/tree/main). 
+- [CoDeF](https://github.com/qiuyu96/CoDeF/tree/main).
 
-By understanding we mean a very simple task: prepare a brief general description of the purpose of the library _just by looking at its folder structure_:
+Your mission is to understand their structure. For each project:
 
-1. Can you identify the main folders? Without looking at the code (you can only look inside other folders) what is their purpose?
-2.  Where is the main script of the package located? 
+1. Can prepare a one-line description of the purpose of the library _just by looking at its folder structure_?
+2. Without looking at the code, can you identify the main components of the library? What are they?
+3. Where is the main script of the package located? What script would you open to start using the library?
