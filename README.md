@@ -92,10 +92,11 @@ Week 04 _(~2.5 hours)_
 
 - Assignment #1
 
-Week 05 _(~2 hours)_
+Week 05 _(~2.5 hours)_
 
 - Git strategies
 - Assessing code quality: reviews and structures
+- Debugging
 
 Week 06 _(~2.5 hours)_
 
@@ -113,7 +114,7 @@ Week 09 _(~2.5 hours)_
 
 - Object-oriented programming
 
-Week 10 _(~3.5 hours)_
+Week 10 _(~3.0 hours)_
 
 - Text editors
 - Assignment #4
