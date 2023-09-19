@@ -61,6 +61,7 @@ This exercise is very simple, we just want you to fish out some current or older
 
 ## 2- Structure analysis
 
+<<<<<<< HEAD
 In collecting a couple of examples for the project structure module we made a mess and lost track of the structure each of the projects. Give it a go and see if you can figure out which patterns do these projects follow.
 
 [Link to mysterious project 1](https://github.com/qiuyu96/CoDeF/tree/main)
@@ -77,3 +78,18 @@ In collecting a couple of examples for the project structure module we made a me
 The last part of this assignment is easy, but very important. One of the most common scenarios is to stumble upon code you have not written yourself. Especially when facing big projects, this might come across as a daunting task. Fortunately, debuggers come to the rescue! One of the possible use cases for debuggers is understanding a new piece of code, especially for studying its intricacies and connections. By introducing strategic breakpoints, one can understand the intended flow of the project and the different parts it is composed of.
 
 That situation takes us to our next exercise: in the next module, we will focus on testing. But first, we would like you to use a debugger to try to understand how the current testing code actually works, what is being called, etc.
+=======
+Let's practice your ability to navigate projects you have not written yourself. 
+- How would you go about understanding the different components of a project for the first time? 
+- What if you are looking for a specific feature, class, function, _etc._? How would you proceed then?
+
+Enough chitchat, let us get our hands dirty! Your mission is to understand the structure of two of the most popular python libraries and a bonus repository with a scientific project:
+- [requests](https://github.com/psf/requests/tree/main),
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn/tree/main),
+- [CoDeF](https://github.com/qiuyu96/CoDeF/tree/main). 
+
+By understanding we mean a very simple task: prepare a brief general description of the purpose of the library _just by looking at its folder structure_:
+
+1. Can you identify the main folders? Without looking at the code (you can only look inside other folders) what is their purpose?
+2.  Where is the main script of the package located? 
+>>>>>>> origin/main
